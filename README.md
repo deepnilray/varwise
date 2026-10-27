@@ -30,8 +30,7 @@ The classifier is **fitted before any reserved validation sky tiles are queried*
 
 ```bash
 python -m pip install -r requirements.txt
-python src/varwise_gaia_hunt.py selftest
-python src/varwise_gaia_hunt.py train --out training_only --min-train 400
+python train_first.py --min-train 400  # safety tests, then real training only
 ```
 
 Only after a genuinely new independent validation passes can `run` or `auto` access VarWISE discovery targets. **Do not bypass the model-validation gate.**
