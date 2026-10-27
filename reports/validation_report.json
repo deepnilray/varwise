@@ -1,0 +1,69 @@
+{
+  "n_train": 110,
+  "n_heldout": 28,
+  "metadata_train": 120,
+  "metadata_heldout": 28,
+  "split_strategy": "sky-disjoint training/holdout tiles PRESELECTED; fit model BEFORE any held-out Gaia or ZTF query",
+  "actual_heldout_fraction": 0.2028985507246377,
+  "labels": "known Gaia variables vs sources lacking Gaia variability solutions (proxy negatives)",
+  "auc_heldout": 0.5677083333333334,
+  "auc_shuffled_control": 0.5687500000000001,
+  "precision_at_search_cuts": 1.0,
+  "recall_at_search_cuts": 0.125,
+  "false_positives_heldout": 0,
+  "training_tiles": [
+    [
+      60.0,
+      33.0,
+      7.0588235294117645,
+      6.0
+    ],
+    [
+      38.8235294117647,
+      33.0,
+      7.0588235294117645,
+      6.0
+    ],
+    [
+      255.0,
+      -3.0,
+      6.0,
+      6.0
+    ],
+    [
+      202.97872340425533,
+      39.0,
+      7.659574468085107,
+      6.0
+    ],
+    [
+      351.0,
+      3.0,
+      6.0,
+      6.0
+    ],
+    [
+      270.0,
+      15.0,
+      6.206896551724138,
+      6.0
+    ]
+  ],
+  "validation_tiles": [
+    [
+      300.0,
+      57.0,
+      10.909090909090908,
+      6.0
+    ],
+    [
+      11.48936170212766,
+      39.0,
+      7.659574468085107,
+      6.0
+    ]
+  ],
+  "validation_protocol": "sealed-tiles-after-fit-v2",
+  "code_sha256": "8813b22a8bf954a1635e4b08677659cfa215554bd265d2a47edab9fcd94b7f69",
+  "validated_for_discovery": false
+}
