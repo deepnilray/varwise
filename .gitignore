@@ -1,0 +1,20 @@
+# Training and discovery outputs; keep reproducibility examples deliberately reviewed
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+training_only/
+strict_search/
+out/
+stress/
+ztf_cache/
+*.fits
+*.fits.gz
+*.sqlite3
+*.log
+
+# Research models are not automatically deployable
+*.joblib
+*.pkl
