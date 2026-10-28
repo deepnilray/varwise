@@ -1,0 +1,11 @@
+{
+  "errors": [],
+  "label_origin": "Published AAVSO VSX exact class strings, checked against archived catalog rows",
+  "no_generated_lightcurves": true,
+  "photometry_origin": "Original public ZTF DR24 measurements in archived SNAD query responses",
+  "status": "PASS",
+  "verified_external_count": 120,
+  "verified_real_source_count": 600,
+  "verified_training_count": 384,
+  "verified_validation_count": 96
+}

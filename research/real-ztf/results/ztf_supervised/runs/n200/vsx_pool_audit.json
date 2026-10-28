@@ -1,0 +1,15 @@
+{
+  "catalog_per_sector": 200,
+  "catalog_source": "AAVSO VSX via VizieR B/vsx/vsx exact Type, period 0.2-80 days",
+  "external_ra_deg": [
+    300,
+    360
+  ],
+  "labels": [
+    "RRAB",
+    "DCEP",
+    "EW"
+  ],
+  "rejected_conflicting_label_rows": 0,
+  "unique_published_labeled_sources": 5882
+}

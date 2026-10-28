@@ -1,0 +1,1901 @@
+{
+  "external_class_counts": {
+    "DCEP": 40,
+    "EW": 40,
+    "RRAB": 40
+  },
+  "external_count": 120,
+  "external_ra_300_to_360": {
+    "accuracy": 0.8333333333333334,
+    "classification_report": {
+      "DCEP": {
+        "f1-score": 0.7837837837837838,
+        "precision": 0.8529411764705882,
+        "recall": 0.725,
+        "support": 40.0
+      },
+      "EW": {
+        "f1-score": 0.8735632183908046,
+        "precision": 0.8085106382978723,
+        "recall": 0.95,
+        "support": 40.0
+      },
+      "RRAB": {
+        "f1-score": 0.8354430379746836,
+        "precision": 0.8461538461538461,
+        "recall": 0.825,
+        "support": 40.0
+      },
+      "accuracy": 0.8333333333333334,
+      "macro avg": {
+        "f1-score": 0.8309300133830906,
+        "precision": 0.8358685536407688,
+        "recall": 0.8333333333333334,
+        "support": 120.0
+      },
+      "weighted avg": {
+        "f1-score": 0.8309300133830907,
+        "precision": 0.8358685536407688,
+        "recall": 0.8333333333333334,
+        "support": 120.0
+      }
+    },
+    "confusion_labels": [
+      "RRAB",
+      "DCEP",
+      "EW"
+    ],
+    "confusion_matrix": [
+      [
+        33,
+        4,
+        3
+      ],
+      [
+        5,
+        29,
+        6
+      ],
+      [
+        1,
+        1,
+        38
+      ]
+    ],
+    "count": 120,
+    "individual_predictions": [
+      {
+        "dec_deg": 14.74409,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 330.01071,
+        "true_published_label": "RRAB",
+        "vsx_name": "PS1-3PI J220002.57+144438.7",
+        "ztf_oid": "545213100008127"
+      },
+      {
+        "dec_deg": 20.70293,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 300.00504,
+        "true_published_label": "RRAB",
+        "vsx_name": "PS1-3PI J200001.21+204210.6",
+        "ztf_oid": "592212200048830"
+      },
+      {
+        "dec_deg": 7.84803,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 330.03217,
+        "true_published_label": "RRAB",
+        "vsx_name": "CSS_J220007.7+075052",
+        "ztf_oid": "494215100004790"
+      },
+      {
+        "dec_deg": 32.98122,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 330.03558,
+        "true_published_label": "RRAB",
+        "vsx_name": "ASASSN-V J220008.55+325852.3",
+        "ztf_oid": "690206200005472"
+      },
+      {
+        "dec_deg": 21.25056,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 330.04019,
+        "true_published_label": "RRAB",
+        "vsx_name": "CSS_J220009.7+211502",
+        "ztf_oid": "596216400009543"
+      },
+      {
+        "dec_deg": -6.7387,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 300.01074,
+        "true_published_label": "RRAB",
+        "vsx_name": "PS1-3PI J200002.58-064419.2",
+        "ztf_oid": "387215200033571"
+      },
+      {
+        "dec_deg": 71.59814,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 330.04114,
+        "true_published_label": "RRAB",
+        "vsx_name": "Gaia DR2 2224692557096572288",
+        "ztf_oid": "852215300008074"
+      },
+      {
+        "dec_deg": 19.15419,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 300.01309,
+        "true_published_label": "RRAB",
+        "vsx_name": "Gaia DR3 1822995540190163712",
+        "ztf_oid": "592212300125281"
+      },
+      {
+        "dec_deg": 44.69433,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 330.04153,
+        "true_published_label": "RRAB",
+        "vsx_name": "Gaia DR2 1961299255264023040",
+        "ztf_oid": "770203300051690"
+      },
+      {
+        "dec_deg": 12.01156,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 330.06299,
+        "true_published_label": "RRAB",
+        "vsx_name": "PS1-3PI J220015.12+120041.7",
+        "ztf_oid": "545209400008388"
+      },
+      {
+        "dec_deg": 23.50286,
+        "model_predicted_label": "EW",
+        "ra_deg": 300.01791,
+        "true_published_label": "RRAB",
+        "vsx_name": "Gaia DR2 1833346480120861696",
+        "ztf_oid": "640203100038754"
+      },
+      {
+        "dec_deg": 11.68768,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 330.069,
+        "true_published_label": "RRAB",
+        "vsx_name": "CSS_J220016.5+114115",
+        "ztf_oid": "1592204300027671"
+      },
+      {
+        "dec_deg": 17.62905,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 330.06915,
+        "true_published_label": "RRAB",
+        "vsx_name": "CSS_J220016.5+173744",
+        "ztf_oid": "596208400005026"
+      },
+      {
+        "dec_deg": -8.41648,
+        "model_predicted_label": "EW",
+        "ra_deg": 300.0224,
+        "true_published_label": "RRAB",
+        "vsx_name": "PS1-3PI J200005.37-082459.3",
+        "ztf_oid": "387211200013778"
+      },
+      {
+        "dec_deg": 7.34069,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 330.07703,
+        "true_published_label": "RRAB",
+        "vsx_name": "CSS_J220018.4+072026",
+        "ztf_oid": "494215400000810"
+      },
+      {
+        "dec_deg": -3.93786,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 300.02524,
+        "true_published_label": "RRAB",
+        "vsx_name": "PS1-3PI J200006.06-035616.1",
+        "ztf_oid": "438206400050608"
+      },
+      {
+        "dec_deg": -23.02443,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 330.08713,
+        "true_published_label": "RRAB",
+        "vsx_name": "SSS_J220020.9-230127",
+        "ztf_oid": "290211200012811"
+      },
+      {
+        "dec_deg": 54.60727,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 300.02643,
+        "true_published_label": "RRAB",
+        "vsx_name": "PS1-3PI J200006.34+543626.2",
+        "ztf_oid": "800207200007644"
+      },
+      {
+        "dec_deg": 10.34599,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 330.09122,
+        "true_published_label": "RRAB",
+        "vsx_name": "PS1-3PI J220021.89+102045.5",
+        "ztf_oid": "545205400005275"
+      },
+      {
+        "dec_deg": 1.37635,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 300.02734,
+        "true_published_label": "RRAB",
+        "vsx_name": "ASASSN-V J200006.56+012234.9",
+        "ztf_oid": "490204400052925"
+      },
+      {
+        "dec_deg": 14.48524,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 330.10248,
+        "true_published_label": "RRAB",
+        "vsx_name": "CSS_J220024.5+142906",
+        "ztf_oid": "545213400001464"
+      },
+      {
+        "dec_deg": 84.06797,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 330.11823,
+        "true_published_label": "RRAB",
+        "vsx_name": "Gaia DR3 2300434756331367808",
+        "ztf_oid": "877211300007236"
+      },
+      {
+        "dec_deg": -14.06446,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 300.03009,
+        "true_published_label": "RRAB",
+        "vsx_name": "PS1-3PI J200007.21-140352.0",
+        "ztf_oid": "336213200018692"
+      },
+      {
+        "dec_deg": -18.15516,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 300.03146,
+        "true_published_label": "RRAB",
+        "vsx_name": "PS1-3PI J200007.55-180918.5",
+        "ztf_oid": "336205300003457"
+      },
+      {
+        "dec_deg": 10.256,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 300.03397,
+        "true_published_label": "RRAB",
+        "vsx_name": "V0753 Aql",
+        "ztf_oid": "541206400030130"
+      },
+      {
+        "dec_deg": -0.4384,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 330.15427,
+        "true_published_label": "RRAB",
+        "vsx_name": "[SIG2010] 1528004",
+        "ztf_oid": "443216300007072"
+      },
+      {
+        "dec_deg": 64.60208,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 330.17233,
+        "true_published_label": "RRAB",
+        "vsx_name": "ZTF J220041.35+643607.4",
+        "ztf_oid": "830214400014322"
+      },
+      {
+        "dec_deg": -15.24103,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 300.03738,
+        "true_published_label": "RRAB",
+        "vsx_name": "CSS_J200008.9-151427",
+        "ztf_oid": "336209200031013"
+      },
+      {
+        "dec_deg": 66.96203,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 330.17365,
+        "true_published_label": "RRAB",
+        "vsx_name": "Gaia DR2 2219607934293192320",
+        "ztf_oid": "852203200011199"
+      },
+      {
+        "dec_deg": -7.35857,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 300.04041,
+        "true_published_label": "RRAB",
+        "vsx_name": "PS1-3PI J200009.70-072130.8",
+        "ztf_oid": "387215300011897"
+      },
+      {
+        "dec_deg": 18.24505,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 330.17557,
+        "true_published_label": "RRAB",
+        "vsx_name": "CSS_J220042.1+181442",
+        "ztf_oid": "596208100011478"
+      },
+      {
+        "dec_deg": 8.57852,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 300.04132,
+        "true_published_label": "RRAB",
+        "vsx_name": "Gaia DR2 4299090846870169088",
+        "ztf_oid": "541202400016036"
+      },
+      {
+        "dec_deg": -19.15216,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 330.18976,
+        "true_published_label": "RRAB",
+        "vsx_name": "PS1-3PI J220045.54-190907.7",
+        "ztf_oid": "341204200001188"
+      },
+      {
+        "dec_deg": 11.31106,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 300.04318,
+        "true_published_label": "RRAB",
+        "vsx_name": "PS1-3PI J200010.36+111839.8",
+        "ztf_oid": "541206100058444"
+      },
+      {
+        "dec_deg": 52.24025,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 330.19363,
+        "true_published_label": "RRAB",
+        "vsx_name": "Gaia DR3 1981165476167005824",
+        "ztf_oid": "803204200032158"
+      },
+      {
+        "dec_deg": 17.13854,
+        "model_predicted_label": "EW",
+        "ra_deg": 300.04462,
+        "true_published_label": "RRAB",
+        "vsx_name": "Gaia DR3 1820281155234132992",
+        "ztf_oid": "592208300077179"
+      },
+      {
+        "dec_deg": -13.62681,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 330.19489,
+        "true_published_label": "RRAB",
+        "vsx_name": "ASASSN-V J220046.78-133736.5",
+        "ztf_oid": "341216200002675"
+      },
+      {
+        "dec_deg": 1.93162,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 300.05502,
+        "true_published_label": "RRAB",
+        "vsx_name": "PS1-3PI J200013.20+015553.9",
+        "ztf_oid": "490204100059313"
+      },
+      {
+        "dec_deg": 77.27727,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 330.19678,
+        "true_published_label": "RRAB",
+        "vsx_name": "Gaia DR2 2283912876135746944",
+        "ztf_oid": "867210400020507"
+      },
+      {
+        "dec_deg": 9.65397,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 300.05569,
+        "true_published_label": "RRAB",
+        "vsx_name": "PS1-3PI J200013.36+093914.2",
+        "ztf_oid": "541202100005393"
+      },
+      {
+        "dec_deg": 32.71623,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 300.01227,
+        "true_published_label": "DCEP",
+        "vsx_name": "ZTF J200002.94+324258.4",
+        "ztf_oid": "686206100029407"
+      },
+      {
+        "dec_deg": 57.14399,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 330.62177,
+        "true_published_label": "DCEP",
+        "vsx_name": "IT Cep",
+        "ztf_oid": "803216400035350"
+      },
+      {
+        "dec_deg": 30.49428,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 300.07037,
+        "true_published_label": "DCEP",
+        "vsx_name": "[MS98] 38-23333",
+        "ztf_oid": "686202100079938"
+      },
+      {
+        "dec_deg": 59.45253,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 330.67062,
+        "true_published_label": "DCEP",
+        "vsx_name": "V0394 Cep",
+        "ztf_oid": "830201200034765"
+      },
+      {
+        "dec_deg": 57.72117,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 331.05652,
+        "true_published_label": "DCEP",
+        "vsx_name": "WISE J220413.5+574316",
+        "ztf_oid": "803216400002167"
+      },
+      {
+        "dec_deg": 31.67167,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 300.21655,
+        "true_published_label": "DCEP",
+        "vsx_name": "ZTF J200051.97+314018.0",
+        "ztf_oid": "686206400039971"
+      },
+      {
+        "dec_deg": 55.24567,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 331.07193,
+        "true_published_label": "DCEP",
+        "vsx_name": "ZTF J220417.26+551444.4",
+        "ztf_oid": "803212400072496"
+      },
+      {
+        "dec_deg": 33.21028,
+        "model_predicted_label": "EW",
+        "ra_deg": 300.24243,
+        "true_published_label": "DCEP",
+        "vsx_name": "ZTF J200058.18+331237.0",
+        "ztf_oid": "686206100002088"
+      },
+      {
+        "dec_deg": 30.18811,
+        "model_predicted_label": "EW",
+        "ra_deg": 300.25565,
+        "true_published_label": "DCEP",
+        "vsx_name": "V2232 Cyg",
+        "ztf_oid": "686202400095841"
+      },
+      {
+        "dec_deg": 55.98259,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 331.95911,
+        "true_published_label": "DCEP",
+        "vsx_name": "Gaia DR3 2197957661299107584",
+        "ztf_oid": "1836202200061004"
+      },
+      {
+        "dec_deg": 59.76506,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 331.96448,
+        "true_published_label": "DCEP",
+        "vsx_name": "ZTF J220751.47+594554.2",
+        "ztf_oid": "830201200014219"
+      },
+      {
+        "dec_deg": 34.59617,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 300.35275,
+        "true_published_label": "DCEP",
+        "vsx_name": "WISE J200124.6+343546",
+        "ztf_oid": "686210100027509"
+      },
+      {
+        "dec_deg": 32.80334,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 300.36472,
+        "true_published_label": "DCEP",
+        "vsx_name": "ASASSN-V J200127.53+324812.0",
+        "ztf_oid": "686206100023963"
+      },
+      {
+        "dec_deg": 51.40553,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 332.3273,
+        "true_published_label": "DCEP",
+        "vsx_name": "IT Lac",
+        "ztf_oid": "770214200004463"
+      },
+      {
+        "dec_deg": 56.27363,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 332.4418,
+        "true_published_label": "DCEP",
+        "vsx_name": "ZTF J220946.03+561625.0",
+        "ztf_oid": "803211200065478"
+      },
+      {
+        "dec_deg": 56.29167,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 332.74332,
+        "true_published_label": "DCEP",
+        "vsx_name": "KO Cep",
+        "ztf_oid": "803211200023407"
+      },
+      {
+        "dec_deg": 30.93838,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 300.49918,
+        "true_published_label": "DCEP",
+        "vsx_name": "WISE J200159.8+305618",
+        "ztf_oid": "686201200023412"
+      },
+      {
+        "dec_deg": 57.05379,
+        "model_predicted_label": "EW",
+        "ra_deg": 332.80396,
+        "true_published_label": "DCEP",
+        "vsx_name": "ZTF J221112.95+570313.6",
+        "ztf_oid": "803215300042901"
+      },
+      {
+        "dec_deg": 31.85643,
+        "model_predicted_label": "EW",
+        "ra_deg": 300.57553,
+        "true_published_label": "DCEP",
+        "vsx_name": "ZTF J200218.12+315123.1",
+        "ztf_oid": "686205300028077"
+      },
+      {
+        "dec_deg": 58.42518,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 332.84064,
+        "true_published_label": "DCEP",
+        "vsx_name": "ZTF J221121.75+582530.6",
+        "ztf_oid": "830201400026347"
+      },
+      {
+        "dec_deg": 61.91145,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 333.2038,
+        "true_published_label": "DCEP",
+        "vsx_name": "ASASSN-V J221248.92+615441.2",
+        "ztf_oid": "1836214100015299"
+      },
+      {
+        "dec_deg": 35.0169,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 300.63113,
+        "true_published_label": "DCEP",
+        "vsx_name": "ZTF J200231.46+350100.8",
+        "ztf_oid": "686209200074259"
+      },
+      {
+        "dec_deg": 57.80869,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 333.83777,
+        "true_published_label": "DCEP",
+        "vsx_name": "ZTF J221521.06+574831.2",
+        "ztf_oid": "803215400041071"
+      },
+      {
+        "dec_deg": 32.71905,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 300.72113,
+        "true_published_label": "DCEP",
+        "vsx_name": "WISE J200253.0+324308",
+        "ztf_oid": "686205200028060"
+      },
+      {
+        "dec_deg": 59.21876,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 333.94312,
+        "true_published_label": "DCEP",
+        "vsx_name": "ZTF J221546.34+591307.5",
+        "ztf_oid": "831204200037148"
+      },
+      {
+        "dec_deg": 32.22755,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 300.76163,
+        "true_published_label": "DCEP",
+        "vsx_name": "ZTF J200302.79+321339.1",
+        "ztf_oid": "686205300008083"
+      },
+      {
+        "dec_deg": 58.59611,
+        "model_predicted_label": "EW",
+        "ra_deg": 334.24802,
+        "true_published_label": "DCEP",
+        "vsx_name": "ZTF J221659.52+583545.9",
+        "ztf_oid": "803215100003616"
+      },
+      {
+        "dec_deg": 30.7859,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 300.8085,
+        "true_published_label": "DCEP",
+        "vsx_name": "ZTF J200314.03+304709.2",
+        "ztf_oid": "686201200032382"
+      },
+      {
+        "dec_deg": 73.43309,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 334.56766,
+        "true_published_label": "DCEP",
+        "vsx_name": "WISE J221816.2+732559",
+        "ztf_oid": "867201100021483"
+      },
+      {
+        "dec_deg": 39.15958,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 300.89459,
+        "true_published_label": "DCEP",
+        "vsx_name": "GL Cyg",
+        "ztf_oid": "729208400025033"
+      },
+      {
+        "dec_deg": 29.43315,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 300.92542,
+        "true_published_label": "DCEP",
+        "vsx_name": "ZTF J200342.09+292559.3",
+        "ztf_oid": "640214200073284"
+      },
+      {
+        "dec_deg": 57.71212,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 334.90344,
+        "true_published_label": "DCEP",
+        "vsx_name": "ASASSN-V J221936.83+574243.6",
+        "ztf_oid": "803215400004920"
+      },
+      {
+        "dec_deg": 39.10422,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 301.01868,
+        "true_published_label": "DCEP",
+        "vsx_name": "V0343 Cyg",
+        "ztf_oid": "729208400028474"
+      },
+      {
+        "dec_deg": 60.7706,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 335.06021,
+        "true_published_label": "DCEP",
+        "vsx_name": "V0518 Cep",
+        "ztf_oid": "831208400015719"
+      },
+      {
+        "dec_deg": 32.42845,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 301.04544,
+        "true_published_label": "DCEP",
+        "vsx_name": "WISE J200410.8+322542",
+        "ztf_oid": "686205200116157"
+      },
+      {
+        "dec_deg": 58.92093,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 335.28574,
+        "true_published_label": "DCEP",
+        "vsx_name": "ZTF J222108.57+585515.3",
+        "ztf_oid": "831204400011496"
+      },
+      {
+        "dec_deg": 34.18,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 301.05841,
+        "true_published_label": "DCEP",
+        "vsx_name": "ZTF J200414.02+341047.9",
+        "ztf_oid": "686209300047599"
+      },
+      {
+        "dec_deg": 32.37434,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 301.09018,
+        "true_published_label": "DCEP",
+        "vsx_name": "ZTF J200421.64+322227.6",
+        "ztf_oid": "686205300044993"
+      },
+      {
+        "dec_deg": 60.97781,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 335.33389,
+        "true_published_label": "DCEP",
+        "vsx_name": "WISE J222120.1+605840",
+        "ztf_oid": "831208400006531"
+      },
+      {
+        "dec_deg": 32.51674,
+        "model_predicted_label": "EW",
+        "ra_deg": 301.09369,
+        "true_published_label": "DCEP",
+        "vsx_name": "ZTF J200422.48+323100.2",
+        "ztf_oid": "686205200038833"
+      },
+      {
+        "dec_deg": 11.36614,
+        "model_predicted_label": "EW",
+        "ra_deg": 300.00012,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J200000.02+112158.1",
+        "ztf_oid": "541206100057186"
+      },
+      {
+        "dec_deg": 39.92482,
+        "model_predicted_label": "EW",
+        "ra_deg": 330.0,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J220000.00+395529.3",
+        "ztf_oid": "732206200015286"
+      },
+      {
+        "dec_deg": 36.50548,
+        "model_predicted_label": "EW",
+        "ra_deg": 300.00031,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J200000.07+363019.7",
+        "ztf_oid": "686214100132704"
+      },
+      {
+        "dec_deg": 1.25153,
+        "model_predicted_label": "EW",
+        "ra_deg": 330.00021,
+        "true_published_label": "EW",
+        "vsx_name": "CSS_J220000.0+011505",
+        "ztf_oid": "494203400005296"
+      },
+      {
+        "dec_deg": 30.29889,
+        "model_predicted_label": "EW",
+        "ra_deg": 300.00034,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J200000.07+301756.0",
+        "ztf_oid": "686202400090619"
+      },
+      {
+        "dec_deg": 51.33885,
+        "model_predicted_label": "EW",
+        "ra_deg": 330.00037,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J220000.08+512019.8",
+        "ztf_oid": "803204300071776"
+      },
+      {
+        "dec_deg": 38.28326,
+        "model_predicted_label": "EW",
+        "ra_deg": 300.00061,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J200000.14+381659.7",
+        "ztf_oid": "728201100086613"
+      },
+      {
+        "dec_deg": 64.52358,
+        "model_predicted_label": "EW",
+        "ra_deg": 330.00058,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J220000.13+643124.8",
+        "ztf_oid": "830214400017580"
+      },
+      {
+        "dec_deg": 50.24212,
+        "model_predicted_label": "EW",
+        "ra_deg": 300.00064,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J200000.15+501431.6",
+        "ztf_oid": "767215300015630"
+      },
+      {
+        "dec_deg": 59.5277,
+        "model_predicted_label": "EW",
+        "ra_deg": 330.00189,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J220000.45+593139.7",
+        "ztf_oid": "830202100029669"
+      },
+      {
+        "dec_deg": 10.37169,
+        "model_predicted_label": "EW",
+        "ra_deg": 300.00085,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J200000.20+102218.0",
+        "ztf_oid": "541206400072445"
+      },
+      {
+        "dec_deg": 52.46737,
+        "model_predicted_label": "EW",
+        "ra_deg": 330.00226,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J220000.54+522802.5",
+        "ztf_oid": "803204200052548"
+      },
+      {
+        "dec_deg": 4.34228,
+        "model_predicted_label": "EW",
+        "ra_deg": 300.00092,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J200000.22+042032.2",
+        "ztf_oid": "490208100006614"
+      },
+      {
+        "dec_deg": 57.96282,
+        "model_predicted_label": "EW",
+        "ra_deg": 330.00238,
+        "true_published_label": "EW",
+        "vsx_name": "WISE J220000.5+575746",
+        "ztf_oid": "802213100027615"
+      },
+      {
+        "dec_deg": 37.35888,
+        "model_predicted_label": "EW",
+        "ra_deg": 300.00134,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J200000.31+372131.9",
+        "ztf_oid": "728201400015807"
+      },
+      {
+        "dec_deg": 44.98919,
+        "model_predicted_label": "EW",
+        "ra_deg": 330.00272,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J220000.65+445921.0",
+        "ztf_oid": "770203200031527"
+      },
+      {
+        "dec_deg": 16.39303,
+        "model_predicted_label": "EW",
+        "ra_deg": 300.00146,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J200000.35+162334.9",
+        "ztf_oid": "592204200034313"
+      },
+      {
+        "dec_deg": 53.13392,
+        "model_predicted_label": "EW",
+        "ra_deg": 330.00287,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J220000.69+530802.1",
+        "ztf_oid": "803208300059355"
+      },
+      {
+        "dec_deg": 36.65279,
+        "model_predicted_label": "EW",
+        "ra_deg": 300.00174,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J200000.42+363910.0",
+        "ztf_oid": "686214100025293"
+      },
+      {
+        "dec_deg": 49.86948,
+        "model_predicted_label": "EW",
+        "ra_deg": 330.00323,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J220000.77+495210.1",
+        "ztf_oid": "770215300041608"
+      },
+      {
+        "dec_deg": 25.31283,
+        "model_predicted_label": "EW",
+        "ra_deg": 300.00186,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J200000.44+251846.1",
+        "ztf_oid": "640207100092947"
+      },
+      {
+        "dec_deg": 48.98164,
+        "model_predicted_label": "EW",
+        "ra_deg": 330.00461,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J220001.10+485853.9",
+        "ztf_oid": "770211200031030"
+      },
+      {
+        "dec_deg": 8.18919,
+        "model_predicted_label": "EW",
+        "ra_deg": 300.00201,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J200000.48+081121.0",
+        "ztf_oid": "541202400036239"
+      },
+      {
+        "dec_deg": 21.15351,
+        "model_predicted_label": "EW",
+        "ra_deg": 330.00488,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J220001.17+210912.6",
+        "ztf_oid": "596216400011340"
+      },
+      {
+        "dec_deg": 24.00842,
+        "model_predicted_label": "EW",
+        "ra_deg": 300.00204,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J200000.49+240030.3",
+        "ztf_oid": "640203100054229"
+      },
+      {
+        "dec_deg": 74.32687,
+        "model_predicted_label": "EW",
+        "ra_deg": 330.00488,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J220001.17+741936.7",
+        "ztf_oid": "867202100013179"
+      },
+      {
+        "dec_deg": 12.68718,
+        "model_predicted_label": "EW",
+        "ra_deg": 300.0022,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J200000.52+124113.8",
+        "ztf_oid": "541210400065431"
+      },
+      {
+        "dec_deg": 51.6376,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 330.00491,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J220001.17+513815.3",
+        "ztf_oid": "802201400086323"
+      },
+      {
+        "dec_deg": 33.01504,
+        "model_predicted_label": "EW",
+        "ra_deg": 300.00226,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J200000.54+330054.1",
+        "ztf_oid": "686206100012413"
+      },
+      {
+        "dec_deg": 59.85236,
+        "model_predicted_label": "EW",
+        "ra_deg": 330.0051,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J220001.22+595108.4",
+        "ztf_oid": "830202100049646"
+      },
+      {
+        "dec_deg": 44.20298,
+        "model_predicted_label": "EW",
+        "ra_deg": 300.00299,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J200000.71+441210.7",
+        "ztf_oid": "767203300074727"
+      },
+      {
+        "dec_deg": 74.91251,
+        "model_predicted_label": "EW",
+        "ra_deg": 330.00537,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J220001.29+745445.0",
+        "ztf_oid": "867206400016529"
+      },
+      {
+        "dec_deg": 23.65723,
+        "model_predicted_label": "EW",
+        "ra_deg": 300.00323,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J200000.78+233926.0",
+        "ztf_oid": "640203100066502"
+      },
+      {
+        "dec_deg": 50.76623,
+        "model_predicted_label": "EW",
+        "ra_deg": 330.00613,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J220001.47+504558.4",
+        "ztf_oid": "770215200038608"
+      },
+      {
+        "dec_deg": 21.98332,
+        "model_predicted_label": "EW",
+        "ra_deg": 300.00385,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J200000.91+215859.9",
+        "ztf_oid": "592216200037738"
+      },
+      {
+        "dec_deg": 59.91199,
+        "model_predicted_label": "EW",
+        "ra_deg": 330.00763,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J220001.83+595443.1",
+        "ztf_oid": "830202100048263"
+      },
+      {
+        "dec_deg": 20.36623,
+        "model_predicted_label": "EW",
+        "ra_deg": 300.00388,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J200000.93+202158.4",
+        "ztf_oid": "592212200063100"
+      },
+      {
+        "dec_deg": 61.33245,
+        "model_predicted_label": "EW",
+        "ra_deg": 330.00858,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J220002.05+611956.8",
+        "ztf_oid": "830206100073608"
+      },
+      {
+        "dec_deg": 35.68828,
+        "model_predicted_label": "EW",
+        "ra_deg": 300.00443,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J200001.05+354117.8",
+        "ztf_oid": "686214400027743"
+      },
+      {
+        "dec_deg": 11.18085,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 300.00446,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J200001.07+111051.0",
+        "ztf_oid": "541206100028501"
+      }
+    ],
+    "macro_f1": 0.8309300133830906
+  },
+  "feature_names": [
+    "frac_bright_tail",
+    "iqr_mag",
+    "kurtosis_mag",
+    "ls_max_power",
+    "ls_period_days",
+    "ls_power_peak_ratio",
+    "ls_power_q95",
+    "mad_mag",
+    "q95_q05_mag",
+    "skew_mag",
+    "std_mag",
+    "von_neumann_ratio",
+    "weighted_constant_chi2"
+  ],
+  "limits": [
+    "These are published catalog labels, which can contain mistakes.",
+    "Tested only 3 known variable classes, without nonvariable or unknown class.",
+    "No ZTF object is claimed as newly discovered.",
+    "The external RA sky-sector split is not an independent telescope.",
+    "Running this pipeline does not prove novelty or survey-wide completeness."
+  ],
+  "removed_survey_shortcut_features": [
+    "log_n_obs",
+    "log_timespan"
+  ],
+  "seed": 20261027,
+  "source_labels": "Exact AAVSO VSX published types: RRAB,DCEP,EW",
+  "status": "COMPLETED_REAL_ZTF_SUPERVISED_RUN",
+  "training_class_counts": {
+    "DCEP": 128,
+    "EW": 128,
+    "RRAB": 128
+  },
+  "training_count": 384,
+  "validation": {
+    "accuracy": 0.84375,
+    "classification_report": {
+      "DCEP": {
+        "f1-score": 0.7368421052631579,
+        "precision": 0.84,
+        "recall": 0.65625,
+        "support": 32.0
+      },
+      "EW": {
+        "f1-score": 0.9117647058823529,
+        "precision": 0.8611111111111112,
+        "recall": 0.96875,
+        "support": 32.0
+      },
+      "RRAB": {
+        "f1-score": 0.8656716417910447,
+        "precision": 0.8285714285714286,
+        "recall": 0.90625,
+        "support": 32.0
+      },
+      "accuracy": 0.84375,
+      "macro avg": {
+        "f1-score": 0.8380928176455185,
+        "precision": 0.8432275132275132,
+        "recall": 0.84375,
+        "support": 96.0
+      },
+      "weighted avg": {
+        "f1-score": 0.8380928176455185,
+        "precision": 0.8432275132275132,
+        "recall": 0.84375,
+        "support": 96.0
+      }
+    },
+    "confusion_labels": [
+      "RRAB",
+      "DCEP",
+      "EW"
+    ],
+    "confusion_matrix": [
+      [
+        29,
+        3,
+        0
+      ],
+      [
+        6,
+        21,
+        5
+      ],
+      [
+        0,
+        1,
+        31
+      ]
+    ],
+    "count": 96,
+    "individual_predictions": [
+      {
+        "dec_deg": 5.04196,
+        "model_predicted_label": "EW",
+        "ra_deg": 270.01108,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J180002.65+050231.0",
+        "ztf_oid": "485209300021846"
+      },
+      {
+        "dec_deg": 31.33909,
+        "model_predicted_label": "EW",
+        "ra_deg": 60.00997,
+        "true_published_label": "EW",
+        "vsx_name": "CSS_J040002.3+312021",
+        "ztf_oid": "1653211200003059"
+      },
+      {
+        "dec_deg": 55.77762,
+        "model_predicted_label": "EW",
+        "ra_deg": 150.00429,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J100001.02+554639.4",
+        "ztf_oid": "786210400000948"
+      },
+      {
+        "dec_deg": 1.36828,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 150.17052,
+        "true_published_label": "RRAB",
+        "vsx_name": "CSS_J100040.9+012205",
+        "ztf_oid": "468203300009798"
+      },
+      {
+        "dec_deg": 14.33117,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 90.57683,
+        "true_published_label": "DCEP",
+        "vsx_name": "ASASSN-V J060218.44+141952.2",
+        "ztf_oid": "1557205400001101"
+      },
+      {
+        "dec_deg": -19.31795,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 269.85345,
+        "true_published_label": "DCEP",
+        "vsx_name": "OGLE-BLG-CEP-132",
+        "ztf_oid": "332202200013875"
+      },
+      {
+        "dec_deg": 24.86427,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 150.04758,
+        "true_published_label": "RRAB",
+        "vsx_name": "CSS_J100011.4+245151",
+        "ztf_oid": "620207300009713"
+      },
+      {
+        "dec_deg": 41.04336,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 240.03915,
+        "true_published_label": "RRAB",
+        "vsx_name": "CSS_J160009.3+410236",
+        "ztf_oid": "722212300004078"
+      },
+      {
+        "dec_deg": -8.88664,
+        "model_predicted_label": "EW",
+        "ra_deg": 274.86508,
+        "true_published_label": "DCEP",
+        "vsx_name": "Gaia DR3 4159360270654013184",
+        "ztf_oid": "383210400000838"
+      },
+      {
+        "dec_deg": -9.40215,
+        "model_predicted_label": "EW",
+        "ra_deg": 210.05382,
+        "true_published_label": "EW",
+        "vsx_name": "LINEAR 10575980",
+        "ztf_oid": "374210300005513"
+      },
+      {
+        "dec_deg": -12.34591,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 260.03317,
+        "true_published_label": "DCEP",
+        "vsx_name": "ASASSN-V J172007.96-122045.3",
+        "ztf_oid": "381202200027361"
+      },
+      {
+        "dec_deg": -10.2467,
+        "model_predicted_label": "EW",
+        "ra_deg": 210.12527,
+        "true_published_label": "EW",
+        "vsx_name": "ASASSN-V J140030.03-101448.5",
+        "ztf_oid": "374206200002693"
+      },
+      {
+        "dec_deg": 60.78705,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 4.70982,
+        "true_published_label": "DCEP",
+        "vsx_name": "ZTF J001850.35+604713.3",
+        "ztf_oid": "806207300018161"
+      },
+      {
+        "dec_deg": -22.93418,
+        "model_predicted_label": "EW",
+        "ra_deg": 264.76608,
+        "true_published_label": "DCEP",
+        "vsx_name": "Gaia DR3 4116748074730650496",
+        "ztf_oid": "281211100031771"
+      },
+      {
+        "dec_deg": 42.61035,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 70.75011,
+        "true_published_label": "DCEP",
+        "vsx_name": "ZTF J044300.02+423637.2",
+        "ztf_oid": "702215400025650"
+      },
+      {
+        "dec_deg": 29.43797,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 90.09588,
+        "true_published_label": "RRAB",
+        "vsx_name": "BMAM-V629",
+        "ztf_oid": "612215200045104"
+      },
+      {
+        "dec_deg": 58.95623,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 90.14805,
+        "true_published_label": "RRAB",
+        "vsx_name": "ASASSN-V J060035.53+585722.5",
+        "ztf_oid": "812202400020701"
+      },
+      {
+        "dec_deg": 28.9797,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 60.05636,
+        "true_published_label": "RRAB",
+        "vsx_name": "V1292 Tau",
+        "ztf_oid": "608215300000246"
+      },
+      {
+        "dec_deg": -24.61978,
+        "model_predicted_label": "EW",
+        "ra_deg": 262.15094,
+        "true_published_label": "DCEP",
+        "vsx_name": "Gaia DR3 4110461793161580416",
+        "ztf_oid": "281208100014660"
+      },
+      {
+        "dec_deg": 8.14961,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 95.16785,
+        "true_published_label": "DCEP",
+        "vsx_name": "ASASSN-V J062040.28+080858.6",
+        "ztf_oid": "512201300036378"
+      },
+      {
+        "dec_deg": 70.92784,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 60.32239,
+        "true_published_label": "RRAB",
+        "vsx_name": "PS1-3PI J040117.38+705540.2",
+        "ztf_oid": "836210200004321"
+      },
+      {
+        "dec_deg": -12.34883,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 30.00536,
+        "true_published_label": "RRAB",
+        "vsx_name": "CSS_J020001.2-122055",
+        "ztf_oid": "349204200013643"
+      },
+      {
+        "dec_deg": 64.811,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 5.62647,
+        "true_published_label": "DCEP",
+        "vsx_name": "ASASSN-V J002230.35+644839.6",
+        "ztf_oid": "806215400007964"
+      },
+      {
+        "dec_deg": 63.20403,
+        "model_predicted_label": "EW",
+        "ra_deg": 30.02117,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J020005.08+631214.5",
+        "ztf_oid": "808211200030732"
+      },
+      {
+        "dec_deg": -21.05285,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 120.11293,
+        "true_published_label": "RRAB",
+        "vsx_name": "Gaia DR3 5713118699176211712",
+        "ztf_oid": "261214200018393"
+      },
+      {
+        "dec_deg": 55.63331,
+        "model_predicted_label": "EW",
+        "ra_deg": 0.01619,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J000003.88+553759.9",
+        "ztf_oid": "805209300044762"
+      },
+      {
+        "dec_deg": -24.84853,
+        "model_predicted_label": "EW",
+        "ra_deg": 210.14767,
+        "true_published_label": "EW",
+        "vsx_name": "SSS_J140035.4-245054",
+        "ztf_oid": "273205100005598"
+      },
+      {
+        "dec_deg": -11.90186,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 0.19706,
+        "true_published_label": "RRAB",
+        "vsx_name": "PS1-3PI J000047.29-115406.6",
+        "ztf_oid": "395201200000341"
+      },
+      {
+        "dec_deg": 47.98747,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 90.04496,
+        "true_published_label": "RRAB",
+        "vsx_name": "LQ Aur",
+        "ztf_oid": "745211400013865"
+      },
+      {
+        "dec_deg": -15.48013,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 30.35865,
+        "true_published_label": "RRAB",
+        "vsx_name": "CSS_J020126.0-152848",
+        "ztf_oid": "298210200010678"
+      },
+      {
+        "dec_deg": 17.31055,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 150.01308,
+        "true_published_label": "RRAB",
+        "vsx_name": "CSS_J100003.1+171838",
+        "ztf_oid": "571208400006636"
+      },
+      {
+        "dec_deg": 60.80272,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 4.26037,
+        "true_published_label": "DCEP",
+        "vsx_name": "FO Cas",
+        "ztf_oid": "806207300017022"
+      },
+      {
+        "dec_deg": 43.96285,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 71.05166,
+        "true_published_label": "DCEP",
+        "vsx_name": "ZTF J044412.39+435746.2",
+        "ztf_oid": "702215100008639"
+      },
+      {
+        "dec_deg": 10.67431,
+        "model_predicted_label": "EW",
+        "ra_deg": 60.02696,
+        "true_published_label": "EW",
+        "vsx_name": "CSS_J040006.4+104027",
+        "ztf_oid": "507205300000905"
+      },
+      {
+        "dec_deg": 10.19867,
+        "model_predicted_label": "EW",
+        "ra_deg": 120.01875,
+        "true_published_label": "EW",
+        "vsx_name": "CSS_J080004.5+101155",
+        "ztf_oid": "516207300008475"
+      },
+      {
+        "dec_deg": 7.01878,
+        "model_predicted_label": "EW",
+        "ra_deg": 234.45744,
+        "true_published_label": "DCEP",
+        "vsx_name": "ASASSN-V J153749.79+070107.6",
+        "ztf_oid": "480214400004007"
+      },
+      {
+        "dec_deg": 30.14994,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 90.18733,
+        "true_published_label": "RRAB",
+        "vsx_name": "PS1-3PI J060044.96+300859.8",
+        "ztf_oid": "660204300039895"
+      },
+      {
+        "dec_deg": 17.69872,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 91.73442,
+        "true_published_label": "DCEP",
+        "vsx_name": "OGLE-GD-CEP-0024",
+        "ztf_oid": "562205400004601"
+      },
+      {
+        "dec_deg": 26.36425,
+        "model_predicted_label": "EW",
+        "ra_deg": 90.01403,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J060003.36+262151.2",
+        "ztf_oid": "612211300024767"
+      },
+      {
+        "dec_deg": -17.55164,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 273.77292,
+        "true_published_label": "DCEP",
+        "vsx_name": "ASASSN-V J181505.51-173305.9",
+        "ztf_oid": "333208100018867"
+      },
+      {
+        "dec_deg": 20.94563,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 91.34521,
+        "true_published_label": "DCEP",
+        "vsx_name": "Gaia DR3 3423304890166708864",
+        "ztf_oid": "1608206400023812"
+      },
+      {
+        "dec_deg": 60.84219,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 32.63348,
+        "true_published_label": "DCEP",
+        "vsx_name": "ZTF J021032.03+605031.8",
+        "ztf_oid": "808207400010196"
+      },
+      {
+        "dec_deg": 61.61774,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 0.01002,
+        "true_published_label": "RRAB",
+        "vsx_name": "Gaia DR3 429519617490941312",
+        "ztf_oid": "806208200061984"
+      },
+      {
+        "dec_deg": -16.46525,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 210.01845,
+        "true_published_label": "RRAB",
+        "vsx_name": "SEKBO 120609.114",
+        "ztf_oid": "323209400003706"
+      },
+      {
+        "dec_deg": 62.42426,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 0.44148,
+        "true_published_label": "DCEP",
+        "vsx_name": "V0879 Cas",
+        "ztf_oid": "806212300029024"
+      },
+      {
+        "dec_deg": 57.83918,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 260.50302,
+        "true_published_label": "DCEP",
+        "vsx_name": "BASV 204",
+        "ztf_oid": "796214100025753"
+      },
+      {
+        "dec_deg": 30.8239,
+        "model_predicted_label": "EW",
+        "ra_deg": 240.01161,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J160002.78+304926.0",
+        "ztf_oid": "679204200005515"
+      },
+      {
+        "dec_deg": 63.80496,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 8.11952,
+        "true_published_label": "DCEP",
+        "vsx_name": "WISE J003228.6+634817",
+        "ztf_oid": "806210200005566"
+      },
+      {
+        "dec_deg": 35.11483,
+        "model_predicted_label": "EW",
+        "ra_deg": 120.02167,
+        "true_published_label": "EW",
+        "vsx_name": "CSS_J080005.2+350653",
+        "ztf_oid": "663209200000381"
+      },
+      {
+        "dec_deg": -5.94912,
+        "model_predicted_label": "EW",
+        "ra_deg": 120.0117,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J080002.80-055656.8",
+        "ztf_oid": "413203300008062"
+      },
+      {
+        "dec_deg": 56.25137,
+        "model_predicted_label": "EW",
+        "ra_deg": 0.00571,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J000001.37+561504.9",
+        "ztf_oid": "805209200018427"
+      },
+      {
+        "dec_deg": 72.90523,
+        "model_predicted_label": "EW",
+        "ra_deg": 150.07004,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J100016.80+725418.8",
+        "ztf_oid": "841214100007473"
+      },
+      {
+        "dec_deg": 29.88342,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 120.03528,
+        "true_published_label": "RRAB",
+        "vsx_name": "CSS_J080008.4+295300",
+        "ztf_oid": "663201300005480"
+      },
+      {
+        "dec_deg": 67.18291,
+        "model_predicted_label": "EW",
+        "ra_deg": 90.00986,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J060002.36+671058.4",
+        "ztf_oid": "838203200010396"
+      },
+      {
+        "dec_deg": 43.11585,
+        "model_predicted_label": "EW",
+        "ra_deg": 150.0381,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J100009.14+430657.0",
+        "ztf_oid": "711214300002209"
+      },
+      {
+        "dec_deg": -22.50336,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 264.49432,
+        "true_published_label": "DCEP",
+        "vsx_name": "OGLE-BLG-CEP-002",
+        "ztf_oid": "281211100059894"
+      },
+      {
+        "dec_deg": 50.01754,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 210.04733,
+        "true_published_label": "RRAB",
+        "vsx_name": "CSS_J140011.4+500103",
+        "ztf_oid": "758216300003946"
+      },
+      {
+        "dec_deg": -12.56186,
+        "model_predicted_label": "EW",
+        "ra_deg": 270.00177,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J180000.42-123342.6",
+        "ztf_oid": "383204200126986"
+      },
+      {
+        "dec_deg": 51.79323,
+        "model_predicted_label": "EW",
+        "ra_deg": 90.00689,
+        "true_published_label": "EW",
+        "vsx_name": "ASASSN-V J060001.66+514735.6",
+        "ztf_oid": "1783212400008466"
+      },
+      {
+        "dec_deg": 13.54773,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 30.24008,
+        "true_published_label": "RRAB",
+        "vsx_name": "ASAS J020058+1332.8",
+        "ztf_oid": "503210200016677"
+      },
+      {
+        "dec_deg": 20.08138,
+        "model_predicted_label": "EW",
+        "ra_deg": 90.79107,
+        "true_published_label": "DCEP",
+        "vsx_name": "ZTF J060309.85+200452.9",
+        "ztf_oid": "562209200014164"
+      },
+      {
+        "dec_deg": -18.18845,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 150.19746,
+        "true_published_label": "RRAB",
+        "vsx_name": "PS1-3PI J100047.39-181118.4",
+        "ztf_oid": "315206300006643"
+      },
+      {
+        "dec_deg": -20.5459,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 240.02692,
+        "true_published_label": "RRAB",
+        "vsx_name": "SSS_J160006.6-203246",
+        "ztf_oid": "328203300011941"
+      },
+      {
+        "dec_deg": 3.30606,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 99.18846,
+        "true_published_label": "DCEP",
+        "vsx_name": "OGLE-GD-CEP-0050",
+        "ztf_oid": "460205400006853"
+      },
+      {
+        "dec_deg": -5.35833,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 274.20532,
+        "true_published_label": "DCEP",
+        "vsx_name": "ASASSN-V J181649.28-052130.0",
+        "ztf_oid": "435204200041289"
+      },
+      {
+        "dec_deg": 31.1066,
+        "model_predicted_label": "EW",
+        "ra_deg": 240.05637,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J160013.52+310623.7",
+        "ztf_oid": "679204100022059"
+      },
+      {
+        "dec_deg": -24.35644,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 267.90778,
+        "true_published_label": "DCEP",
+        "vsx_name": "OGLE-BLG-CEP-079",
+        "ztf_oid": "281205200002184"
+      },
+      {
+        "dec_deg": -13.92006,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 270.0094,
+        "true_published_label": "RRAB",
+        "vsx_name": "Gaia DR2 4150101729936836992",
+        "ztf_oid": "332214200074106"
+      },
+      {
+        "dec_deg": 29.27447,
+        "model_predicted_label": "EW",
+        "ra_deg": 30.01268,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J020003.04+291628.0",
+        "ztf_oid": "1649207200015292"
+      },
+      {
+        "dec_deg": 30.69083,
+        "model_predicted_label": "EW",
+        "ra_deg": 90.00096,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J060000.23+304126.9",
+        "ztf_oid": "660204200014213"
+      },
+      {
+        "dec_deg": 29.26612,
+        "model_predicted_label": "EW",
+        "ra_deg": 120.01948,
+        "true_published_label": "EW",
+        "vsx_name": "CSS_J080004.6+291558",
+        "ztf_oid": "616215200019591"
+      },
+      {
+        "dec_deg": -17.66248,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 120.16836,
+        "true_published_label": "RRAB",
+        "vsx_name": "Gaia DR3 5714926369315492480",
+        "ztf_oid": "311207200057186"
+      },
+      {
+        "dec_deg": -13.08241,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 30.32635,
+        "true_published_label": "RRAB",
+        "vsx_name": "CSS_J020118.3-130456",
+        "ztf_oid": "349204300003785"
+      },
+      {
+        "dec_deg": -11.40605,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 150.10744,
+        "true_published_label": "RRAB",
+        "vsx_name": "PS1-3PI J100025.78-112421.7",
+        "ztf_oid": "366208300012661"
+      },
+      {
+        "dec_deg": 15.69706,
+        "model_predicted_label": "EW",
+        "ra_deg": 120.01776,
+        "true_published_label": "EW",
+        "vsx_name": "CSS_J080004.2+154154",
+        "ztf_oid": "566201400004344"
+      },
+      {
+        "dec_deg": 0.35292,
+        "model_predicted_label": "EW",
+        "ra_deg": 270.02197,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J180005.27+002110.5",
+        "ztf_oid": "434215100039304"
+      },
+      {
+        "dec_deg": -2.17853,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 120.18692,
+        "true_published_label": "RRAB",
+        "vsx_name": "V0945 Mon",
+        "ztf_oid": "413211300022226"
+      },
+      {
+        "dec_deg": -21.25072,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 175.08929,
+        "true_published_label": "DCEP",
+        "vsx_name": "SSS_J114021.4-211502",
+        "ztf_oid": "269216100005193"
+      },
+      {
+        "dec_deg": 37.03179,
+        "model_predicted_label": "EW",
+        "ra_deg": 30.01011,
+        "true_published_label": "EW",
+        "vsx_name": "GSC 02320-00837",
+        "ztf_oid": "652215200009703"
+      },
+      {
+        "dec_deg": 12.03909,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 60.10845,
+        "true_published_label": "RRAB",
+        "vsx_name": "CSS_J040026.0+120220",
+        "ztf_oid": "507209300005616"
+      },
+      {
+        "dec_deg": 1.2796,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 150.09084,
+        "true_published_label": "EW",
+        "vsx_name": "LINEAR 21147974",
+        "ztf_oid": "468203300003533"
+      },
+      {
+        "dec_deg": -10.09889,
+        "model_predicted_label": "EW",
+        "ra_deg": 180.11771,
+        "true_published_label": "EW",
+        "vsx_name": "CSS_J120028.2-100556",
+        "ztf_oid": "370207200001454"
+      },
+      {
+        "dec_deg": -7.27117,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 90.11138,
+        "true_published_label": "RRAB",
+        "vsx_name": "Gaia DR3 3018345514883248000",
+        "ztf_oid": "357214300004132"
+      },
+      {
+        "dec_deg": 55.92025,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 61.31722,
+        "true_published_label": "DCEP",
+        "vsx_name": "ASASSN-V J040516.13+555512.9",
+        "ztf_oid": "778210200030803"
+      },
+      {
+        "dec_deg": 39.65722,
+        "model_predicted_label": "EW",
+        "ra_deg": 0.01559,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J000003.74+393925.9",
+        "ztf_oid": "694208100010202"
+      },
+      {
+        "dec_deg": 38.87401,
+        "model_predicted_label": "EW",
+        "ra_deg": 0.00921,
+        "true_published_label": "EW",
+        "vsx_name": "ZTF J000002.21+385226.4",
+        "ztf_oid": "694208400011288"
+      },
+      {
+        "dec_deg": 43.15608,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 0.09273,
+        "true_published_label": "RRAB",
+        "vsx_name": "PS1-3PI J000022.26+430921.9",
+        "ztf_oid": "694216400002897"
+      },
+      {
+        "dec_deg": 61.93544,
+        "model_predicted_label": "EW",
+        "ra_deg": 180.26854,
+        "true_published_label": "EW",
+        "vsx_name": "NSVS 2629444",
+        "ztf_oid": "819206200007695"
+      },
+      {
+        "dec_deg": -14.74159,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 270.96997,
+        "true_published_label": "DCEP",
+        "vsx_name": "Gaia DR3 4146983892912210560",
+        "ztf_oid": "332214400030814"
+      },
+      {
+        "dec_deg": -23.396,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 120.13084,
+        "true_published_label": "RRAB",
+        "vsx_name": "PS1-3PI J080031.40-232345.6",
+        "ztf_oid": "261210300041277"
+      },
+      {
+        "dec_deg": 41.31878,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 63.37933,
+        "true_published_label": "DCEP",
+        "vsx_name": "CSS_J041331.0+411907",
+        "ztf_oid": "701210300004230"
+      },
+      {
+        "dec_deg": 14.11195,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 60.01197,
+        "true_published_label": "RRAB",
+        "vsx_name": "Gaia DR2 39136085599048064",
+        "ztf_oid": "507213300003950"
+      },
+      {
+        "dec_deg": 63.36956,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 37.5312,
+        "true_published_label": "DCEP",
+        "vsx_name": "ASASSN-V J023007.49+632210.4",
+        "ztf_oid": "1841203100015125"
+      },
+      {
+        "dec_deg": 52.63973,
+        "model_predicted_label": "RRAB",
+        "ra_deg": 120.1546,
+        "true_published_label": "RRAB",
+        "vsx_name": "CSS_J080037.1+523823",
+        "ztf_oid": "784204200000986"
+      },
+      {
+        "dec_deg": 51.91794,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 63.19252,
+        "true_published_label": "DCEP",
+        "vsx_name": "ASASSN-V J041246.21+515504.6",
+        "ztf_oid": "1780210300013013"
+      },
+      {
+        "dec_deg": 11.85033,
+        "model_predicted_label": "DCEP",
+        "ra_deg": 97.81058,
+        "true_published_label": "DCEP",
+        "vsx_name": "VZ Mon",
+        "ztf_oid": "513211300022402"
+      }
+    ],
+    "macro_f1": 0.8380928176455185
+  },
+  "validation_class_counts": {
+    "DCEP": 32,
+    "EW": 32,
+    "RRAB": 32
+  },
+  "validation_count": 96
+}

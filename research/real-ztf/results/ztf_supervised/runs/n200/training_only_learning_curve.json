@@ -1,0 +1,62 @@
+{
+  "folds": 3,
+  "predeclared_fractions": [
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "results": [
+    {
+      "cv_fold_scores": [
+        0.7433862433862434,
+        0.4862663906142168,
+        0.8019323671497585
+      ],
+      "fraction_of_original_training": 0.25,
+      "n_stars": 96,
+      "training_only_cv_macro_f1_mean": 0.6771950003834061,
+      "training_only_cv_macro_f1_sd": 0.16792025688769585
+    },
+    {
+      "cv_fold_scores": [
+        0.7648578811369507,
+        0.7094514943485195,
+        0.7286967418546366
+      ],
+      "fraction_of_original_training": 0.5,
+      "n_stars": 192,
+      "training_only_cv_macro_f1_mean": 0.7343353724467022,
+      "training_only_cv_macro_f1_sd": 0.02813027800169501
+    },
+    {
+      "cv_fold_scores": [
+        0.7516317016317017,
+        0.6883237404070738,
+        0.7002164502164502
+      ],
+      "fraction_of_original_training": 0.75,
+      "n_stars": 288,
+      "training_only_cv_macro_f1_mean": 0.7133906307517419,
+      "training_only_cv_macro_f1_sd": 0.03364734407330081
+    },
+    {
+      "cv_fold_scores": [
+        0.7616677440206852,
+        0.7514228176166711,
+        0.7755660322449217
+      ],
+      "fraction_of_original_training": 1.0,
+      "n_stars": 384,
+      "training_only_cv_macro_f1_mean": 0.7628855312940926,
+      "training_only_cv_macro_f1_sd": 0.012117588767114475
+    }
+  ],
+  "training_class_counts": {
+    "DCEP": 128,
+    "EW": 128,
+    "RRAB": 128
+  },
+  "training_star_count": 384,
+  "warning": "Exploratory model-capacity diagnostic using train split only; untouched validation and external not accessed."
+}
