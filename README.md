@@ -1,5 +1,7 @@
 # VarWise — Gaia × ZTF astronomy research
 
+[![VarWise offline tests](https://github.com/deepnilray/varwise/actions/workflows/tests.yml/badge.svg)](https://github.com/deepnilray/varwise/actions/workflows/tests.yml)
+
 A reproducible pipeline for identifying potentially unreported *optical variability* among sources already listed in the VarWISE infrared-variable catalog.
 
 > **Experimental. No confirmed discoveries. The real-world machine-learning model FAILED held-out validation and must NOT be used for discovery.**
