@@ -1,0 +1,16 @@
+{
+  "actual_photometry_rows": 175419,
+  "actual_ztf_source_lightcurves": 750,
+  "limits": "One cross-source check; other SNAD entries were not individually re-fetched from IRSA. No proof of novelty or model generalization.",
+  "max_numeric_differences_time_magnitude_error": [
+    4.989669832866639e-06,
+    8.999999998593466e-07,
+    9.000000016079479e-10
+  ],
+  "mirror_json_sha256": "234ce0f44115d1f3571dc062e1ceb2fda6fed7e30290f07a47e0b31585b47036",
+  "mirror_rows_for_checked_oid": 724,
+  "official_ipac_file_sha256": "59e2cf61764bb9db2f92586b832b15c5b9cb41c9cc07457f87231b517fa86063",
+  "original_irsa_good_catflags_zero_rows_for_checked_oid": 724,
+  "original_irsa_rows_for_checked_oid": 838,
+  "status": "PASS"
+}

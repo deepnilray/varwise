@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "checked_source_files": 1800,
+  "unique_source_ids": 1800,
+  "correct_sha256_count": 1800,
+  "lmc_training_records": 1200,
+  "lmc_validation_records": 300,
+  "smc_external_records": 300,
+  "all_sources_are_official_ogle_urls": true
+}

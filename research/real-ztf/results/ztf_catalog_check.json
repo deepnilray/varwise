@@ -1,0 +1,3093 @@
+{
+  "catalog_query_provenance": {
+    "gaia_dr3_variable_summary": {
+      "catalog_id": "I/358/varisum",
+      "entries_in_queried_field": 0,
+      "raw_sha256": "c3a02005c95e772ef705df95c7e8e10216efa7ac7911a47a2215a08f4324bd33",
+      "saved_query_response": "data/catalog_crossmatches/gaia_dr3_variables_50arcsec.tsv",
+      "source_url": "https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=I%2f358%2fvarisum&-c=298.0025+%2b29.87147&-c.rs=50&-out.max=10000"
+    },
+    "vsx": {
+      "catalog_id": "B/vsx/vsx",
+      "entries_in_queried_field": 0,
+      "raw_sha256": "14a48873bb3d65e24ba31f90bb11de7330ddcdc8b7ae31dd6628eb13a1f80002",
+      "saved_query_response": "data/catalog_crossmatches/vsx_50arcsec.tsv",
+      "source_url": "https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=B%2fvsx%2fvsx&-c=298.0025+%2b29.87147&-c.rs=50&-out.max=1000"
+    },
+    "ztf_2020_periodic": {
+      "catalog_id": "J/ApJS/249/18",
+      "entries_in_queried_field": 3,
+      "raw_sha256": "3fe8d922c6ed6626289fbe2e242b92d8c30889abdf528ab132ba80e15869239f",
+      "saved_query_response": "data/catalog_crossmatches/ztf_2020_periodic_50arcsec.tsv",
+      "source_url": "https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J%2fApJS%2f249%2f18&-c=298.0025+%2b29.87147&-c.rs=50&-out.max=1000"
+    }
+  },
+  "count_candidate_positions": 125,
+  "positions_matching_at_least_one_published_catalog": 4,
+  "positions_without_match_in_these_three_catalogs": 121,
+  "ranked_positions": [
+    {
+      "catalog_status": "MATCHES_PUBLISHED_CATALOG",
+      "dec_deg": 29.869295120239258,
+      "filters_and_oids": [
+        {
+          "filter": "zr",
+          "oid": "686203400115400"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400124497"
+        }
+      ],
+      "n_quality_points": 779,
+      "published_catalog_matches_within_2arcsec": [
+        {
+          "angular_separation_arcsec": 0.6773278401923942,
+          "catalog": "ztf_2020_periodic",
+          "catalog_record": {
+            "DEJ2000": "+29.86926",
+            "ID": "ZTFJ195202.69+295209.3",
+            "Ng": "  56",
+            "Nr": " 115",
+            "Per-g": "  0.9956000",
+            "Per-r": "  0.9989500",
+            "RAJ2000": "298.01123",
+            "gAmp": " 2.148",
+            "gmag": "18.710",
+            "log(FAP-g)": "  -4.796",
+            "log(FAP-r)": " -15.615",
+            "rAmp": " 1.288",
+            "rmag": "18.558"
+          }
+        }
+      ],
+      "ra_deg": 298.0110168457031,
+      "representative_oid": "686203400115400",
+      "representative_period_days": 0.4992485990234128,
+      "strong_daily_alias_risk": true,
+      "top_score": 0.7248782852374714
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.866437911987305,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400085155"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400167776"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400067914"
+        }
+      ],
+      "n_quality_points": 86,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0140075683594,
+      "representative_oid": "686303400085155",
+      "representative_period_days": 1.5330209022167276,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.4403138914169778
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.869285583496094,
+      "filters_and_oids": [
+        {
+          "filter": "zr",
+          "oid": "686203400142423"
+        }
+      ],
+      "n_quality_points": 100,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.008544921875,
+      "representative_oid": "686203400142423",
+      "representative_period_days": 0.4992485990234128,
+      "strong_daily_alias_risk": true,
+      "top_score": 0.37466631269116574
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.87175941467285,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400124632"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400167736"
+        }
+      ],
+      "n_quality_points": 80,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.9993896484375,
+      "representative_oid": "686303400124632",
+      "representative_period_days": 0.24954836052530588,
+      "strong_daily_alias_risk": true,
+      "top_score": 0.3673840911264253
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.863582611083984,
+      "filters_and_oids": [
+        {
+          "filter": "zg",
+          "oid": "640116100094495"
+        },
+        {
+          "filter": "zi",
+          "oid": "686303400036723"
+        },
+        {
+          "filter": "zr",
+          "oid": "640216100040452"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400079012"
+        }
+      ],
+      "n_quality_points": 157,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0129089355469,
+      "representative_oid": "640116100094495",
+      "representative_period_days": 0.9997281309471356,
+      "strong_daily_alias_risk": true,
+      "top_score": 0.35018404608769804
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.869354248046875,
+      "filters_and_oids": [
+        {
+          "filter": "zg",
+          "oid": "686103400089985"
+        },
+        {
+          "filter": "zi",
+          "oid": "686303400124746"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400115398"
+        }
+      ],
+      "n_quality_points": 126,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0058288574219,
+      "representative_oid": "686103400089985",
+      "representative_period_days": 0.5120006145543761,
+      "strong_daily_alias_risk": true,
+      "top_score": 0.30321586210282087
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.86957550048828,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400036368"
+        }
+      ],
+      "n_quality_points": 93,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.012451171875,
+      "representative_oid": "686303400036368",
+      "representative_period_days": 0.2650573661291285,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.29313101512087525
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.869245529174805,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400124751"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400167748"
+        }
+      ],
+      "n_quality_points": 82,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.9996032714844,
+      "representative_oid": "686303400124751",
+      "representative_period_days": 0.2194907091048303,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.2805502544438447
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.870431900024414,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400172784"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400172958"
+        }
+      ],
+      "n_quality_points": 88,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0074157714844,
+      "representative_oid": "686303400172784",
+      "representative_period_days": 0.279177651127418,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.26941706640978547
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.86660385131836,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400195127"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400158460"
+        }
+      ],
+      "n_quality_points": 80,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.00421142578125,
+      "representative_oid": "686303400195127",
+      "representative_period_days": 0.7152438697215218,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.2577167846209315
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.88043212890625,
+      "filters_and_oids": [
+        {
+          "filter": "zg",
+          "oid": "686103400089683"
+        },
+        {
+          "filter": "zi",
+          "oid": "686303400084409"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400078275"
+        }
+      ],
+      "n_quality_points": 161,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0020446777344,
+      "representative_oid": "686103400089683",
+      "representative_period_days": 0.9972413148174125,
+      "strong_daily_alias_risk": true,
+      "top_score": 0.2577038646587137
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.869651794433594,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400124726"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400067836"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400115382"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0016174316406,
+      "representative_oid": "686303400124726",
+      "representative_period_days": 0.40109828111483053,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.24544874278363057
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.865636825561523,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400154555"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400158478"
+        }
+      ],
+      "n_quality_points": 91,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.98992919921875,
+      "representative_oid": "686303400154555",
+      "representative_period_days": 0.5008077544426495,
+      "strong_daily_alias_risk": true,
+      "top_score": 0.24135096816093554
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.86318016052246,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400085327"
+        },
+        {
+          "filter": "zg",
+          "oid": "640116100113568"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400068021"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400035723"
+        },
+        {
+          "filter": "zr",
+          "oid": "640216100040451"
+        }
+      ],
+      "n_quality_points": 87,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.99981689453125,
+      "representative_oid": "686303400085327",
+      "representative_period_days": 2.4669195891551774,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.23950166520258123
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.869504928588867,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400154418"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400131915"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400158403"
+        }
+      ],
+      "n_quality_points": 93,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0035095214844,
+      "representative_oid": "686303400154418",
+      "representative_period_days": 0.4156532584970377,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.23602875171483456
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.872150421142578,
+      "filters_and_oids": [
+        {
+          "filter": "zg",
+          "oid": "686103400133005"
+        },
+        {
+          "filter": "zi",
+          "oid": "686303400036204"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400142339"
+        }
+      ],
+      "n_quality_points": 192,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0130615234375,
+      "representative_oid": "686103400133005",
+      "representative_period_days": 5.894643745508817,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.22417323963128402
+    },
+    {
+      "catalog_status": "MATCHES_PUBLISHED_CATALOG",
+      "dec_deg": 29.87146759033203,
+      "filters_and_oids": [
+        {
+          "filter": "zg",
+          "oid": "686103400034440"
+        },
+        {
+          "filter": "zi",
+          "oid": "686303400036256"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400035219"
+        }
+      ],
+      "n_quality_points": 724,
+      "published_catalog_matches_within_2arcsec": [
+        {
+          "angular_separation_arcsec": 0.012671887000668696,
+          "catalog": "ztf_2020_periodic",
+          "catalog_record": {
+            "DEJ2000": "+29.87147",
+            "ID": "ZTFJ195200.60+295217.2",
+            "Ng": " 140",
+            "Nr": " 117",
+            "Per-g": "355.3447600",
+            "Per-r": "293.9781300",
+            "RAJ2000": "298.00253",
+            "gAmp": " 0.145",
+            "gmag": "17.629",
+            "log(FAP-g)": "  -2.075",
+            "log(FAP-r)": "  -5.464",
+            "rAmp": " 0.064",
+            "rmag": "15.210"
+          }
+        }
+      ],
+      "ra_deg": 298.0025329589844,
+      "representative_oid": "686103400034440",
+      "representative_period_days": 0.9997281309471356,
+      "strong_daily_alias_risk": true,
+      "top_score": 0.21837518811848802
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.86272621154785,
+      "filters_and_oids": [
+        {
+          "filter": "zr",
+          "oid": "640216100104472"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400079046"
+        }
+      ],
+      "n_quality_points": 109,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.9938659667969,
+      "representative_oid": "640216100104472",
+      "representative_period_days": 0.2364491824942462,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.2139054326866682
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.868635177612305,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400154429"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400115404"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400130186"
+        }
+      ],
+      "n_quality_points": 94,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.9933776855469,
+      "representative_oid": "686303400154429",
+      "representative_period_days": 0.22707431019577282,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.21171770594906542
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.883289337158203,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400172579"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400158159"
+        }
+      ],
+      "n_quality_points": 85,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0022888183594,
+      "representative_oid": "686303400172579",
+      "representative_period_days": 0.25134759930516437,
+      "strong_daily_alias_risk": true,
+      "top_score": 0.20623783228383696
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.87166976928711,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400036241"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400078667"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400067765"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.9959411621094,
+      "representative_oid": "686303400036241",
+      "representative_period_days": 0.25048386793693744,
+      "strong_daily_alias_risk": true,
+      "top_score": 0.20343659477792567
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.864192962646484,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400172891"
+        },
+        {
+          "filter": "zg",
+          "oid": "640116100082242"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400090114"
+        },
+        {
+          "filter": "zr",
+          "oid": "640216100000005"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400115583"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0079650878906,
+      "representative_oid": "686303400172891",
+      "representative_period_days": 0.25134759930516437,
+      "strong_daily_alias_risk": true,
+      "top_score": 0.1990760135219057
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.870800018310547,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400084917"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400067791"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400035254"
+        }
+      ],
+      "n_quality_points": 80,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.99993896484375,
+      "representative_oid": "686303400084917",
+      "representative_period_days": 0.2793721984842015,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.19492940434971415
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.878164291381836,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400084501"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400115028"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400089741"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0120544433594,
+      "representative_oid": "686303400084501",
+      "representative_period_days": 0.6440080199048241,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.19425768940349003
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.866636276245117,
+      "filters_and_oids": [
+        {
+          "filter": "zg",
+          "oid": "686103400034716"
+        },
+        {
+          "filter": "zg",
+          "oid": "640116100064980"
+        },
+        {
+          "filter": "zi",
+          "oid": "686303400036534"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400035519"
+        }
+      ],
+      "n_quality_points": 728,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0066833496094,
+      "representative_oid": "686103400034716",
+      "representative_period_days": 0.9997281309471356,
+      "strong_daily_alias_risk": true,
+      "top_score": 0.1906659185431678
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.881084442138672,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400035641"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400078240"
+        }
+      ],
+      "n_quality_points": 93,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.9963684082031,
+      "representative_oid": "686303400035641",
+      "representative_period_days": 0.9399569862144345,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.18945355830748328
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.860506057739258,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400085448"
+        },
+        {
+          "filter": "zr",
+          "oid": "640216100127328"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400079130"
+        },
+        {
+          "filter": "zg",
+          "oid": "640116100000237"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400106736"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0077209472656,
+      "representative_oid": "686303400085448",
+      "representative_period_days": 0.22290783521876908,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.1816274347693582
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.874135971069336,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400036081"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400034277"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400035067"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0036926269531,
+      "representative_oid": "686303400036081",
+      "representative_period_days": 0.2392715947999264,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.18109842603271883
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.878341674804688,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400035814"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400067555"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400034843"
+        }
+      ],
+      "n_quality_points": 88,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0055847167969,
+      "representative_oid": "686303400035814",
+      "representative_period_days": 0.3259338046292136,
+      "strong_daily_alias_risk": true,
+      "top_score": 0.17510067241812266
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.872228622436523,
+      "filters_and_oids": [
+        {
+          "filter": "zg",
+          "oid": "686103400089911"
+        },
+        {
+          "filter": "zi",
+          "oid": "686303400036210"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400035162"
+        }
+      ],
+      "n_quality_points": 720,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.00897216796875,
+      "representative_oid": "686103400089911",
+      "representative_period_days": 0.9997281309471356,
+      "strong_daily_alias_risk": true,
+      "top_score": 0.17347905124782426
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.87061882019043,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400084924"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400106565"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400078711"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0037536621094,
+      "representative_oid": "686303400084924",
+      "representative_period_days": 14.572287510248703,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.1723740757911285
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.87339210510254,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400124526"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400158339"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400106512"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.9949951171875,
+      "representative_oid": "686303400124526",
+      "representative_period_days": 0.8475532701218399,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.17062447423719007
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.871694564819336,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400124637"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400115299"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400067764"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.998046875,
+      "representative_oid": "686303400124637",
+      "representative_period_days": 0.24678330093492548,
+      "strong_daily_alias_risk": true,
+      "top_score": 0.1699982392700619
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.87909698486328,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400191821"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400128097"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400175972"
+        }
+      ],
+      "n_quality_points": 94,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0117492675781,
+      "representative_oid": "686303400191821",
+      "representative_period_days": 4.197433677084153,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.1654420889308567
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.877300262451172,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400035871"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400034099"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400034892"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0146789550781,
+      "representative_oid": "686303400035871",
+      "representative_period_days": 0.23053459207872418,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.16310138871821164
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.862028121948242,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400036813"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400118110"
+        },
+        {
+          "filter": "zr",
+          "oid": "640216100000091"
+        },
+        {
+          "filter": "zg",
+          "oid": "640116100000169"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400035797"
+        }
+      ],
+      "n_quality_points": 95,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0103759765625,
+      "representative_oid": "686303400036813",
+      "representative_period_days": 0.2499373047364807,
+      "strong_daily_alias_risk": true,
+      "top_score": 0.16050089317251606
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.876066207885742,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400188633"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400158298"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400106465"
+        }
+      ],
+      "n_quality_points": 94,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0086669921875,
+      "representative_oid": "686303400188633",
+      "representative_period_days": 0.2826218316354115,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.1516766647795929
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.87616539001465,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400035941"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400034165"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400034958"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0137023925781,
+      "representative_oid": "686303400035941",
+      "representative_period_days": 0.2488513029456583,
+      "strong_daily_alias_risk": true,
+      "top_score": 0.14863648721194422
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.87099266052246,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400036281"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400067787"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400035240"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0113525390625,
+      "representative_oid": "686303400036281",
+      "representative_period_days": 0.21478694520757638,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.1476515051252483
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.876949310302734,
+      "filters_and_oids": [
+        {
+          "filter": "zg",
+          "oid": "686103400089780"
+        },
+        {
+          "filter": "zi",
+          "oid": "686303400124399"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400115087"
+        }
+      ],
+      "n_quality_points": 728,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0094299316406,
+      "representative_oid": "686103400089780",
+      "representative_period_days": 0.9997281309471356,
+      "strong_daily_alias_risk": true,
+      "top_score": 0.14665272000388152
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.880767822265625,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400084386"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400067482"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400078253"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0118408203125,
+      "representative_oid": "686303400084386",
+      "representative_period_days": 0.24482411875714571,
+      "strong_daily_alias_risk": true,
+      "top_score": 0.14652572553192225
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.873876571655273,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400084745"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400142291"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400089858"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0093688964844,
+      "representative_oid": "686303400084745",
+      "representative_period_days": 0.23665855168694672,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.14390684728337952
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.883949279785156,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400124066"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.00274658203125,
+      "representative_oid": "686303400124066",
+      "representative_period_days": 0.21398443676583315,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.138987095683904
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.87147331237793,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400154349"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400089932"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400142360"
+        }
+      ],
+      "n_quality_points": 87,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.99298095703125,
+      "representative_oid": "686303400154349",
+      "representative_period_days": 0.3035962375019929,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.13571722352780846
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.8671875,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400085123"
+        },
+        {
+          "filter": "zg",
+          "oid": "640116100000000"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400158448"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400128151"
+        }
+      ],
+      "n_quality_points": 95,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.9993896484375,
+      "representative_oid": "686303400085123",
+      "representative_period_days": 0.5292360221937688,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.13556496230920817
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.862611770629883,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400125042"
+        },
+        {
+          "filter": "zr",
+          "oid": "640216100147429"
+        }
+      ],
+      "n_quality_points": 80,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0008850097656,
+      "representative_oid": "686303400125042",
+      "representative_period_days": 0.24846572878465215,
+      "strong_daily_alias_risk": true,
+      "top_score": 0.13494674033311055
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.882291793823242,
+      "filters_and_oids": [
+        {
+          "filter": "zg",
+          "oid": "686103400033815"
+        },
+        {
+          "filter": "zi",
+          "oid": "686303400084303"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400142071"
+        }
+      ],
+      "n_quality_points": 728,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0046081542969,
+      "representative_oid": "686103400033815",
+      "representative_period_days": 0.9997281309471356,
+      "strong_daily_alias_risk": true,
+      "top_score": 0.13479898022886605
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.87344741821289,
+      "filters_and_oids": [
+        {
+          "filter": "zr",
+          "oid": "686203400175987"
+        }
+      ],
+      "n_quality_points": 419,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0165100097656,
+      "representative_oid": "686203400175987",
+      "representative_period_days": 0.5587400056586573,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.13468585030262506
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.875364303588867,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400124472"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400106482"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400115156"
+        }
+      ],
+      "n_quality_points": 95,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0007019042969,
+      "representative_oid": "686303400124472",
+      "representative_period_days": 0.2179395475261082,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.13457536253997945
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.8627872467041,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400036753"
+        },
+        {
+          "filter": "zg",
+          "oid": "640116100082262"
+        },
+        {
+          "filter": "zr",
+          "oid": "640216100074045"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400034918"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400079041"
+        }
+      ],
+      "n_quality_points": 95,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.00299072265625,
+      "representative_oid": "686303400036753",
+      "representative_period_days": 0.47136618398486535,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.13354792767783244
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.867958068847656,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400172820"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400158426"
+        }
+      ],
+      "n_quality_points": 94,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.99151611328125,
+      "representative_oid": "686303400172820",
+      "representative_period_days": 0.2212471083724935,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.13312327680270752
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.868867874145508,
+      "filters_and_oids": [
+        {
+          "filter": "zg",
+          "oid": "686103400034599"
+        },
+        {
+          "filter": "zi",
+          "oid": "686303400036408"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400035381"
+        }
+      ],
+      "n_quality_points": 728,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.996826171875,
+      "representative_oid": "686103400034599",
+      "representative_period_days": 0.9997281309471356,
+      "strong_daily_alias_risk": true,
+      "top_score": 0.1304882227176227
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.8666934967041,
+      "filters_and_oids": [
+        {
+          "filter": "zg",
+          "oid": "640116100094441"
+        }
+      ],
+      "n_quality_points": 241,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0142822265625,
+      "representative_oid": "640116100094441",
+      "representative_period_days": 0.25001523911341184,
+      "strong_daily_alias_risk": true,
+      "top_score": 0.130205766047737
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.876676559448242,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400124383"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400106445"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400142200"
+        }
+      ],
+      "n_quality_points": 90,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.9985046386719,
+      "representative_oid": "686303400124383",
+      "representative_period_days": 0.8988612513591653,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.1295230399341096
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.86483383178711,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400191865"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400142540"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0122985839844,
+      "representative_oid": "686303400191865",
+      "representative_period_days": 25.845855550169656,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.12790161411492965
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.86273956298828,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400036758"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400034926"
+        },
+        {
+          "filter": "zg",
+          "oid": "640116100000133"
+        },
+        {
+          "filter": "zr",
+          "oid": "640216100000059"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400035747"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.00701904296875,
+      "representative_oid": "686303400036758",
+      "representative_period_days": 5.380423814328961,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.12535772831250372
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.880388259887695,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400035687"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400033919"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400034739"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0049133300781,
+      "representative_oid": "686303400035687",
+      "representative_period_days": 0.30921617295692316,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.12519636884685026
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.874893188476562,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400124488"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400089832"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400078507"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.9911193847656,
+      "representative_oid": "686303400124488",
+      "representative_period_days": 0.2407082202850397,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.12258506451953435
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.861204147338867,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400036862"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400035018"
+        },
+        {
+          "filter": "zg",
+          "oid": "640116100000196"
+        },
+        {
+          "filter": "zr",
+          "oid": "640216100040547"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400035852"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.9999084472656,
+      "representative_oid": "686303400036862",
+      "representative_period_days": 0.21409871348034884,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.12107240885191223
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.870498657226562,
+      "filters_and_oids": [
+        {
+          "filter": "zr",
+          "oid": "686203400142392"
+        }
+      ],
+      "n_quality_points": 857,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.9970703125,
+      "representative_oid": "686203400142392",
+      "representative_period_days": 0.4909941434306973,
+      "strong_daily_alias_risk": true,
+      "top_score": 0.12038278465727265
+    },
+    {
+      "catalog_status": "MATCHES_PUBLISHED_CATALOG",
+      "dec_deg": 29.869394302368164,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400084996"
+        }
+      ],
+      "n_quality_points": 92,
+      "published_catalog_matches_within_2arcsec": [
+        {
+          "angular_separation_arcsec": 1.7802960055565586,
+          "catalog": "ztf_2020_periodic",
+          "catalog_record": {
+            "DEJ2000": "+29.86926",
+            "ID": "ZTFJ195202.69+295209.3",
+            "Ng": "  56",
+            "Nr": " 115",
+            "Per-g": "  0.9956000",
+            "Per-r": "  0.9989500",
+            "RAJ2000": "298.01123",
+            "gAmp": " 2.148",
+            "gmag": "18.710",
+            "log(FAP-g)": "  -4.796",
+            "log(FAP-r)": " -15.615",
+            "rAmp": " 1.288",
+            "rmag": "18.558"
+          }
+        }
+      ],
+      "ra_deg": 298.01068115234375,
+      "representative_oid": "686303400084996",
+      "representative_period_days": 0.20019974918711092,
+      "strong_daily_alias_risk": true,
+      "top_score": 0.11936906817808926
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.864595413208008,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400036653"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400035643"
+        }
+      ],
+      "n_quality_points": 87,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.9930114746094,
+      "representative_oid": "686303400036653",
+      "representative_period_days": 0.2763868586653397,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.11612082971503161
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.867528915405273,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400085100"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400115454"
+        }
+      ],
+      "n_quality_points": 93,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.9927978515625,
+      "representative_oid": "686303400085100",
+      "representative_period_days": 0.4390989084291014,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.11579875798753017
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.868623733520508,
+      "filters_and_oids": [
+        {
+          "filter": "zr",
+          "oid": "686203400177688"
+        }
+      ],
+      "n_quality_points": 572,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.9989929199219,
+      "representative_oid": "686203400177688",
+      "representative_period_days": 0.4992485990234128,
+      "strong_daily_alias_risk": true,
+      "top_score": 0.11571506561727797
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.86328125,
+      "filters_and_oids": [
+        {
+          "filter": "zg",
+          "oid": "686103400106695"
+        },
+        {
+          "filter": "zi",
+          "oid": "686303400085321"
+        },
+        {
+          "filter": "zr",
+          "oid": "640216100040445"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400035720"
+        }
+      ],
+      "n_quality_points": 104,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.997314453125,
+      "representative_oid": "686103400106695",
+      "representative_period_days": 0.5052256554573278,
+      "strong_daily_alias_risk": true,
+      "top_score": 0.11538846221738751
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.861927032470703,
+      "filters_and_oids": [
+        {
+          "filter": "zr",
+          "oid": "640216100104484"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400079065"
+        }
+      ],
+      "n_quality_points": 181,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.9957580566406,
+      "representative_oid": "640216100104484",
+      "representative_period_days": 0.22566828624151417,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.1146290283070398
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.873126983642578,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400036159"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400035122"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400067717"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0105285644531,
+      "representative_oid": "686303400036159",
+      "representative_period_days": 0.22082058120705866,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.1144910693192778
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.868328094482422,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400172819"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400167761"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.9906921386719,
+      "representative_oid": "686303400172819",
+      "representative_period_days": 0.4909941434306973,
+      "strong_daily_alias_risk": true,
+      "top_score": 0.11431654638746673
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.862092971801758,
+      "filters_and_oids": [
+        {
+          "filter": "zg",
+          "oid": "640116100042408"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400068056"
+        },
+        {
+          "filter": "zr",
+          "oid": "640216100040510"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400079085"
+        }
+      ],
+      "n_quality_points": 115,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.9986877441406,
+      "representative_oid": "640116100042408",
+      "representative_period_days": 3.9886295631358473,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.11368411576724807
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.865381240844727,
+      "filters_and_oids": [
+        {
+          "filter": "zg",
+          "oid": "640116100102803"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400128159"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400158485"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0083923339844,
+      "representative_oid": "640116100102803",
+      "representative_period_days": 0.6239614295410397,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.113285558901108
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.880800247192383,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400154051"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400034718"
+        }
+      ],
+      "n_quality_points": 91,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.9981994628906,
+      "representative_oid": "686303400154051",
+      "representative_period_days": 0.5595198119543319,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.1111434305294491
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.881328582763672,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400124194"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400089656"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400078228"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.00201416015625,
+      "representative_oid": "686303400124194",
+      "representative_period_days": 0.20469744550487176,
+      "strong_daily_alias_risk": true,
+      "top_score": 0.110430758802762
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.875831604003906,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400035966"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400106471"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400115137"
+        }
+      ],
+      "n_quality_points": 95,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0050048828125,
+      "representative_oid": "686303400035966",
+      "representative_period_days": 0.24385614682591406,
+      "strong_daily_alias_risk": true,
+      "top_score": 0.10684964722008826
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.878158569335938,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400084467"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400067535"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400114995"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.99420166015625,
+      "representative_oid": "686303400084467",
+      "representative_period_days": 0.3010881411251842,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.10606404979384933
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.876605987548828,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400035911"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400067611"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400078440"
+        }
+      ],
+      "n_quality_points": 95,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.00079345703125,
+      "representative_oid": "686303400035911",
+      "representative_period_days": 0.39054832046643134,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.10430483451804858
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.875335693359375,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400036000"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400067647"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400035008"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.9983215332031,
+      "representative_oid": "686303400036000",
+      "representative_period_days": 1.2278358587021603,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.1039177860534262
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.859146118164062,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400085491"
+        },
+        {
+          "filter": "zr",
+          "oid": "640216100104569"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400035980"
+        }
+      ],
+      "n_quality_points": 94,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.00030517578125,
+      "representative_oid": "686303400085491",
+      "representative_period_days": 0.3195684746778544,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.10310503059484741
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.87716293334961,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400084571"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400089772"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400078414"
+        }
+      ],
+      "n_quality_points": 94,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0022888183594,
+      "representative_oid": "686303400084571",
+      "representative_period_days": 0.43434166527506807,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.10281828387522553
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.878902435302734,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400124316"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400142163"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.9947509765625,
+      "representative_oid": "686303400124316",
+      "representative_period_days": 0.6996411255666871,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.10136356741394928
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.871950149536133,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400084853"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400035185"
+        }
+      ],
+      "n_quality_points": 87,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.9894104003906,
+      "representative_oid": "686303400084853",
+      "representative_period_days": 0.27346464628332723,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.1012277607859629
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.873624801635742,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400124540"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400035094"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400034310"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.991455078125,
+      "representative_oid": "686303400124540",
+      "representative_period_days": 0.2743066451968042,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.10060247903537393
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.86431884765625,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400154591"
+        }
+      ],
+      "n_quality_points": 81,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.9971008300781,
+      "representative_oid": "686303400154591",
+      "representative_period_days": 8.713130157692623,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.09883360959141305
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.879199981689453,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400124298"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400089710"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400142156"
+        }
+      ],
+      "n_quality_points": 95,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.9936828613281,
+      "representative_oid": "686303400124298",
+      "representative_period_days": 0.34515571494229064,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.09831574052247545
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.873891830444336,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400154281"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400034290"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400035083"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0126953125,
+      "representative_oid": "686303400154281",
+      "representative_period_days": 0.3086210738647381,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.09720526208167106
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.877197265625,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400084568"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400089769"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400078411"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0034484863281,
+      "representative_oid": "686303400084568",
+      "representative_period_days": 0.27142802601270094,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.0971035340231995
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.872167587280273,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400036217"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400034393"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400035166"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0072326660156,
+      "representative_oid": "686303400036217",
+      "representative_period_days": 0.35493426526876354,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.096609500846933
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.860441207885742,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400036907"
+        },
+        {
+          "filter": "zg",
+          "oid": "640116100000234"
+        },
+        {
+          "filter": "zr",
+          "oid": "640216100000155"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400035061"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400035903"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.9984436035156,
+      "representative_oid": "686303400036907",
+      "representative_period_days": 0.5654384746310918,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.09637083133860223
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.864362716674805,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400124953"
+        },
+        {
+          "filter": "zg",
+          "oid": "640116100042345"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400034837"
+        },
+        {
+          "filter": "zr",
+          "oid": "640216100040429"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400035652"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.010498046875,
+      "representative_oid": "686303400124953",
+      "representative_period_days": 0.44176008086231033,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.09602776139612862
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.86375617980957,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400036706"
+        },
+        {
+          "filter": "zr",
+          "oid": "640216100104443"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400035695"
+        }
+      ],
+      "n_quality_points": 85,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.9945068359375,
+      "representative_oid": "686303400036706",
+      "representative_period_days": 0.20772016214015657,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.09602065600642908
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.872705459594727,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400124584"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400115258"
+        }
+      ],
+      "n_quality_points": 94,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.9967956542969,
+      "representative_oid": "686303400124584",
+      "representative_period_days": 1.7242271374983835,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.09595392973791333
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.866090774536133,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400036560"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400106635"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400035547"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0028381347656,
+      "representative_oid": "686303400036560",
+      "representative_period_days": 0.2551873822952985,
+      "strong_daily_alias_risk": true,
+      "top_score": 0.09576769925924326
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.86421775817871,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400154596"
+        },
+        {
+          "filter": "zg",
+          "oid": "640116100109163"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400067993"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400115582"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.00225830078125,
+      "representative_oid": "686303400154596",
+      "representative_period_days": 0.2904012897041523,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.0956554097966625
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.869239807128906,
+      "filters_and_oids": [
+        {
+          "filter": "zr",
+          "oid": "686203400158408"
+        }
+      ],
+      "n_quality_points": 594,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.9928283691406,
+      "representative_oid": "686203400158408",
+      "representative_period_days": 0.9997281309471356,
+      "strong_daily_alias_risk": true,
+      "top_score": 0.09505588558970636
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.86383056640625,
+      "filters_and_oids": [
+        {
+          "filter": "zr",
+          "oid": "640216100154733"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400167803"
+        }
+      ],
+      "n_quality_points": 157,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.010009765625,
+      "representative_oid": "640216100154733",
+      "representative_period_days": 0.23362448763196694,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.0941425179339103
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.862319946289062,
+      "filters_and_oids": [
+        {
+          "filter": "zg",
+          "oid": "640116100000144"
+        },
+        {
+          "filter": "zi",
+          "oid": "686303400085364"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400068039"
+        },
+        {
+          "filter": "zr",
+          "oid": "640216100104483"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400079064"
+        }
+      ],
+      "n_quality_points": 214,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.9964294433594,
+      "representative_oid": "640116100000144",
+      "representative_period_days": 1.1372749765378383,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.0909592438462192
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.87559700012207,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400124455"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400034195"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400034995"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.9926452636719,
+      "representative_oid": "686303400124455",
+      "representative_period_days": 0.6599091572915508,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.09075151185159103
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.869369506835938,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400124742"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400142421"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.9906005859375,
+      "representative_oid": "686303400124742",
+      "representative_period_days": 0.24260182724857132,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.09065294166973695
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.864320755004883,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400085270"
+        },
+        {
+          "filter": "zg",
+          "oid": "640116100042339"
+        },
+        {
+          "filter": "zr",
+          "oid": "640216100104426"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400067988"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400115575"
+        }
+      ],
+      "n_quality_points": 95,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0039367675781,
+      "representative_oid": "686303400085270",
+      "representative_period_days": 0.21889150255961837,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.08951549232256897
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.878530502319336,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400084480"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400034021"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400034830"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.00140380859375,
+      "representative_oid": "686303400084480",
+      "representative_period_days": 0.3159170154966421,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.08905295457688799
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.882572174072266,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400035539"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400034607"
+        }
+      ],
+      "n_quality_points": 81,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.9969482421875,
+      "representative_oid": "686303400035539",
+      "representative_period_days": 0.4853471934607385,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.08695090241243386
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.87189292907715,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400084855"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400089919"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400078656"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.9942626953125,
+      "representative_oid": "686303400084855",
+      "representative_period_days": 0.2853373932727375,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.08653081355289001
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.865205764770508,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400085228"
+        },
+        {
+          "filter": "zg",
+          "oid": "640116100065013"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400034790"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400035609"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.9991455078125,
+      "representative_oid": "686303400085228",
+      "representative_period_days": 0.8430972597757855,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.08637440637921974
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.876718521118164,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400035907"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400034130"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400034921"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.99505615234375,
+      "representative_oid": "686303400035907",
+      "representative_period_days": 0.49554594162558024,
+      "strong_daily_alias_risk": true,
+      "top_score": 0.08394307914735484
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.870534896850586,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400084932"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400078717"
+        }
+      ],
+      "n_quality_points": 83,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.992431640625,
+      "representative_oid": "686303400084932",
+      "representative_period_days": 0.24746880533181104,
+      "strong_daily_alias_risk": true,
+      "top_score": 0.0829183274304838
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.866891860961914,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400124847"
+        },
+        {
+          "filter": "zg",
+          "oid": "640116100064967"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400090049"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400142483"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.990234375,
+      "representative_oid": "686303400124847",
+      "representative_period_days": 0.23060089437856257,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.08236541273572383
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.869144439697266,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400085009"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400034582"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400078772"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.98907470703125,
+      "representative_oid": "686303400085009",
+      "representative_period_days": 5.3445597153310285,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.08224080394902893
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.866369247436523,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400172856"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400118055"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400142496"
+        }
+      ],
+      "n_quality_points": 92,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0000915527344,
+      "representative_oid": "686303400172856",
+      "representative_period_days": 0.7528521405173388,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.08076098489203822
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.863399505615234,
+      "filters_and_oids": [
+        {
+          "filter": "zr",
+          "oid": "686203400142568"
+        }
+      ],
+      "n_quality_points": 506,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.00152587890625,
+      "representative_oid": "686203400142568",
+      "representative_period_days": 0.967168510792672,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.08018484590268908
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.87954330444336,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400084443"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400033962"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400078304"
+        }
+      ],
+      "n_quality_points": 95,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.00030517578125,
+      "representative_oid": "686303400084443",
+      "representative_period_days": 0.20702293870070976,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.07938720361131194
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.875558853149414,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400035985"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400034198"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400034999"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.00225830078125,
+      "representative_oid": "686303400035985",
+      "representative_period_days": 0.4211108259126898,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.07895650101411354
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.879045486450195,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400084462"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400034803"
+        }
+      ],
+      "n_quality_points": 95,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.9982604980469,
+      "representative_oid": "686303400084462",
+      "representative_period_days": 0.3326958534690656,
+      "strong_daily_alias_risk": true,
+      "top_score": 0.07823326372338782
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.873910903930664,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400036098"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400034287"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400035082"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.99993896484375,
+      "representative_oid": "686303400036098",
+      "representative_period_days": 0.55068138042148,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.07692182930415122
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.86389923095703,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400154592"
+        },
+        {
+          "filter": "zr",
+          "oid": "640216100073998"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400078999"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.99639892578125,
+      "representative_oid": "686303400154592",
+      "representative_period_days": 0.5591296369117841,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.07590459125306614
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.864707946777344,
+      "filters_and_oids": [
+        {
+          "filter": "zg",
+          "oid": "686103400118083"
+        }
+      ],
+      "n_quality_points": 193,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.01275634765625,
+      "representative_oid": "686103400118083",
+      "representative_period_days": 0.2395575463772088,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.07434827954428332
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.87229347229004,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400183070"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400067745"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400142335"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.9919738769531,
+      "representative_oid": "686303400183070",
+      "representative_period_days": 0.3211042324091249,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.07370472484565402
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.87965965270996,
+      "filters_and_oids": [
+        {
+          "filter": "zr",
+          "oid": "686203400175969"
+        }
+      ],
+      "n_quality_points": 475,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0094909667969,
+      "representative_oid": "686203400175969",
+      "representative_period_days": 0.2393430186756682,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.07119670014903474
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.86764144897461,
+      "filters_and_oids": [
+        {
+          "filter": "zi",
+          "oid": "686303400124814"
+        },
+        {
+          "filter": "zg",
+          "oid": "686103400132742"
+        },
+        {
+          "filter": "zr",
+          "oid": "686203400142464"
+        }
+      ],
+      "n_quality_points": 96,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.9895935058594,
+      "representative_oid": "686303400124814",
+      "representative_period_days": 2.0933610773036,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.0666175975191689
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.876127243041992,
+      "filters_and_oids": [
+        {
+          "filter": "zr",
+          "oid": "686203400115120"
+        }
+      ],
+      "n_quality_points": 598,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.9966125488281,
+      "representative_oid": "686203400115120",
+      "representative_period_days": 1.087896841589815,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.053489704067160915
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.877212524414062,
+      "filters_and_oids": [
+        {
+          "filter": "zr",
+          "oid": "686203400158277"
+        }
+      ],
+      "n_quality_points": 494,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.99774169921875,
+      "representative_oid": "686203400158277",
+      "representative_period_days": 0.3478510477283996,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.04715081631897059
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.883277893066406,
+      "filters_and_oids": [
+        {
+          "filter": "zr",
+          "oid": "686203400078151"
+        }
+      ],
+      "n_quality_points": 584,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.9994201660156,
+      "representative_oid": "686203400078151",
+      "representative_period_days": 1.6164678419305456,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.04668048651181787
+    },
+    {
+      "catalog_status": "MATCHES_PUBLISHED_CATALOG",
+      "dec_deg": 29.868976593017578,
+      "filters_and_oids": [
+        {
+          "filter": "zr",
+          "oid": "686203400115399"
+        }
+      ],
+      "n_quality_points": 706,
+      "published_catalog_matches_within_2arcsec": [
+        {
+          "angular_separation_arcsec": 0.0565566828581379,
+          "catalog": "ztf_2020_periodic",
+          "catalog_record": {
+            "DEJ2000": "+29.86898",
+            "ID": "ZTFJ195201.59+295208.3",
+            "Ng": "  18",
+            "Nr": " 110",
+            "Per-g": "  0.0323700",
+            "Per-r": "  0.9982400",
+            "RAJ2000": "298.00664",
+            "gAmp": " 1.008",
+            "gmag": "21.187",
+            "log(FAP-g)": "   0.000",
+            "log(FAP-r)": "  -3.127",
+            "rAmp": " 0.609",
+            "rmag": "20.422"
+          }
+        }
+      ],
+      "ra_deg": 298.0066223144531,
+      "representative_oid": "686203400115399",
+      "representative_period_days": 0.49893793219609417,
+      "strong_daily_alias_risk": true,
+      "top_score": 0.04145271822814273
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.879108428955078,
+      "filters_and_oids": [
+        {
+          "filter": "zr",
+          "oid": "686203400158225"
+        }
+      ],
+      "n_quality_points": 718,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.01007080078125,
+      "representative_oid": "686203400158225",
+      "representative_period_days": 29.671675013912076,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.03887514838170448
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.882749557495117,
+      "filters_and_oids": [
+        {
+          "filter": "zr",
+          "oid": "686203400078176"
+        }
+      ],
+      "n_quality_points": 342,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0086669921875,
+      "representative_oid": "686203400078176",
+      "representative_period_days": 0.23721868653276776,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.027901108640516103
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.882963180541992,
+      "filters_and_oids": [
+        {
+          "filter": "zr",
+          "oid": "686203400167613"
+        }
+      ],
+      "n_quality_points": 721,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 298.0035095214844,
+      "representative_oid": "686203400167613",
+      "representative_period_days": 0.32007875906449595,
+      "strong_daily_alias_risk": false,
+      "top_score": 0.023262633818629988
+    },
+    {
+      "catalog_status": "NO_MATCH_IN_THESE_THREE_CATALOGS__NOT_PROOF_OF_DISCOVERY",
+      "dec_deg": 29.88050079345703,
+      "filters_and_oids": [
+        {
+          "filter": "zr",
+          "oid": "686203400142116"
+        }
+      ],
+      "n_quality_points": 593,
+      "published_catalog_matches_within_2arcsec": [],
+      "ra_deg": 297.9932556152344,
+      "representative_oid": "686203400142116",
+      "representative_period_days": 0.4909941434306973,
+      "strong_daily_alias_risk": true,
+      "top_score": 0.020573172311101343
+    }
+  ],
+  "search_field": {
+    "catalog_radius_arcsec": 50,
+    "dec": 29.87147,
+    "ra": 298.0025
+  },
+  "warning": "Catalog incompleteness, blends, period aliases and artifacts remain; NOT a discovery catalog."
+}
