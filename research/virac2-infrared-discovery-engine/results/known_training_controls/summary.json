@@ -1,0 +1,14 @@
+{
+  "input_rows": 1522,
+  "sources": 8,
+  "scored_sources": 8,
+  "known_training_sources": 8,
+  "training_lightcurve_reuse_suspected": 0,
+  "model_threshold_exceedances": 0,
+  "review_leads": 0,
+  "blocked_high_score": 0,
+  "discovery_candidates_confirmed": 0,
+  "independent_validation_passed": false,
+  "not_confirmed": true,
+  "report": "results/known_training_controls/candidate_report.html"
+}

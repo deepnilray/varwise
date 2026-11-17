@@ -1,0 +1,81 @@
+{
+  "status": "trained_not_independently_validated",
+  "training_sources": 366,
+  "training_groups": 138,
+  "nested_development_ap": 0.9931398174410762,
+  "nested_development_confusion_matrix": [
+    [
+      269,
+      3
+    ],
+    [
+      4,
+      90
+    ]
+  ],
+  "cohorts": {
+    "CV": {
+      "sources": 63,
+      "flagged": 2
+    },
+    "Dipping Giant": {
+      "sources": 17,
+      "flagged": 0
+    },
+    "Dipping YSO": {
+      "sources": 8,
+      "flagged": 0
+    },
+    "Eruptive YSO": {
+      "sources": 31,
+      "flagged": 0
+    },
+    "LPV": {
+      "sources": 49,
+      "flagged": 0
+    },
+    "Microlens": {
+      "sources": 33,
+      "flagged": 29
+    },
+    "RR": {
+      "sources": 104,
+      "flagged": 1
+    },
+    "microlensing": {
+      "sources": 61,
+      "flagged": 61
+    }
+  },
+  "selected": {
+    "name": "extra_trees",
+    "inner_ap": 0.9930587311780382,
+    "threshold": 0.5228646028279441
+  },
+  "final_training_comparison": [
+    {
+      "name": "ensemble",
+      "inner_ap": 0.9904833483097492,
+      "threshold": 0.5797909703391353
+    },
+    {
+      "name": "extra_trees",
+      "inner_ap": 0.9930587311780382,
+      "threshold": 0.5228646028279441
+    },
+    {
+      "name": "physical_logistic",
+      "inner_ap": 0.957907618472899,
+      "threshold": 0.531231882880145
+    },
+    {
+      "name": "histogram_boosting",
+      "inner_ap": 0.9909120485215175,
+      "threshold": 0.6807187021510107
+    }
+  ],
+  "configuration_fits": 86,
+  "external_tests_used_for_training_or_thresholds": false,
+  "model_sha256": "655b77c78a56e557d884cceef88fa9c69db89b40a3b80081b5088291f2be1b3d",
+  "limitation": "Repeated development data; these are not fresh validation results. No perfection or discovery claim."
+}

@@ -1,0 +1,283 @@
+{
+  "warning": "UNVALIDATED. Development scores only. Images and catalog novelty unverified.",
+  "model_sha256": "655b77c78a56e557d884cceef88fa9c69db89b40a3b80081b5088291f2be1b3d",
+  "source_file_sha256": "5f149c3dc9e9803c8287800f24b50342fe429315b6d994e2db1a5c930b7d0bf4",
+  "selection_rules_validated": false,
+  "independent_validation_passed": false,
+  "scores": [
+    {
+      "sourceid": "12669933004283",
+      "ra_deg": null,
+      "dec_deg": null,
+      "raw_observations": 153,
+      "good_observations": 153,
+      "good_nights": 75,
+      "training_source": true,
+      "score": 1.0,
+      "data_quality_flags": [
+        "no_astrometric_coordinates"
+      ],
+      "physical_evidence_flags": [],
+      "training_lightcurve_fingerprint_match": null,
+      "status": "known_training_control_not_discovery",
+      "original_image_verified": false,
+      "independently_verified_discovery": false,
+      "novelty_catalog_checked": false,
+      "threshold": 0.5228646028279441,
+      "physical_fit": {
+        "t0_mjd": 56021.081852059026,
+        "tE_days": 20.157334883088428,
+        "delta_aic": 5116.700248395125,
+        "fit_converged": true,
+        "good_observations": 153
+      },
+      "coverage": {
+        "nights_before_2tE": 10,
+        "nights_after_2tE": 56,
+        "event_nights_within_tE": 6
+      },
+      "fit_stability": {}
+    },
+    {
+      "sourceid": "13726720002998",
+      "ra_deg": null,
+      "dec_deg": null,
+      "raw_observations": 161,
+      "good_observations": 161,
+      "good_nights": 77,
+      "training_source": true,
+      "score": 0.998347508436542,
+      "data_quality_flags": [
+        "no_astrometric_coordinates"
+      ],
+      "physical_evidence_flags": [],
+      "training_lightcurve_fingerprint_match": null,
+      "status": "known_training_control_not_discovery",
+      "original_image_verified": false,
+      "independently_verified_discovery": false,
+      "novelty_catalog_checked": false,
+      "threshold": 0.5228646028279441,
+      "physical_fit": {
+        "t0_mjd": 55794.21062434368,
+        "tE_days": 32.935793260435105,
+        "delta_aic": 397.55945292027815,
+        "fit_converged": true,
+        "good_observations": 161
+      },
+      "coverage": {
+        "nights_before_2tE": 8,
+        "nights_after_2tE": 63,
+        "event_nights_within_tE": 4
+      },
+      "fit_stability": {}
+    },
+    {
+      "sourceid": "12960819005339",
+      "ra_deg": null,
+      "dec_deg": null,
+      "raw_observations": 157,
+      "good_observations": 156,
+      "good_nights": 70,
+      "training_source": true,
+      "score": 0.9966836928033749,
+      "data_quality_flags": [
+        "no_astrometric_coordinates"
+      ],
+      "physical_evidence_flags": [
+        "fewer_than_two_event_nights"
+      ],
+      "training_lightcurve_fingerprint_match": null,
+      "status": "known_training_control_not_discovery",
+      "original_image_verified": false,
+      "independently_verified_discovery": false,
+      "novelty_catalog_checked": false,
+      "threshold": 0.5228646028279441,
+      "physical_fit": {
+        "t0_mjd": 55844.925059285946,
+        "tE_days": 16.739735080477697,
+        "delta_aic": 725.9329812475817,
+        "fit_converged": true,
+        "good_observations": 156
+      },
+      "coverage": {
+        "nights_before_2tE": 4,
+        "nights_after_2tE": 62,
+        "event_nights_within_tE": 1
+      },
+      "fit_stability": {}
+    },
+    {
+      "sourceid": "13313054002622",
+      "ra_deg": null,
+      "dec_deg": null,
+      "raw_observations": 389,
+      "good_observations": 387,
+      "good_nights": 232,
+      "training_source": true,
+      "score": 0.9964212789283452,
+      "data_quality_flags": [
+        "no_astrometric_coordinates"
+      ],
+      "physical_evidence_flags": [],
+      "training_lightcurve_fingerprint_match": null,
+      "status": "known_training_control_not_discovery",
+      "original_image_verified": false,
+      "independently_verified_discovery": false,
+      "novelty_catalog_checked": false,
+      "threshold": 0.5228646028279441,
+      "physical_fit": {
+        "t0_mjd": 56050.74724460991,
+        "tE_days": 121.14616988802287,
+        "delta_aic": 743.2990797541165,
+        "fit_converged": true,
+        "good_observations": 387
+      },
+      "coverage": {
+        "nights_before_2tE": 8,
+        "nights_after_2tE": 144,
+        "event_nights_within_tE": 40
+      },
+      "fit_stability": {}
+    },
+    {
+      "sourceid": "13956065010603",
+      "ra_deg": null,
+      "dec_deg": null,
+      "raw_observations": 152,
+      "good_observations": 151,
+      "good_nights": 74,
+      "training_source": true,
+      "score": 0.050393636266814444,
+      "data_quality_flags": [
+        "no_astrometric_coordinates"
+      ],
+      "physical_evidence_flags": [],
+      "training_lightcurve_fingerprint_match": null,
+      "status": "known_training_control_not_discovery",
+      "original_image_verified": false,
+      "independently_verified_discovery": false,
+      "novelty_catalog_checked": false,
+      "threshold": 0.5228646028279441,
+      "physical_fit": {
+        "t0_mjd": 56915.848762398775,
+        "tE_days": 129.31529524399676,
+        "delta_aic": 39.25254549215879,
+        "fit_converged": true,
+        "good_observations": 151
+      },
+      "coverage": {
+        "nights_before_2tE": 51,
+        "nights_after_2tE": 7,
+        "event_nights_within_tE": 15
+      },
+      "fit_stability": {}
+    },
+    {
+      "sourceid": "12764128009522",
+      "ra_deg": null,
+      "dec_deg": null,
+      "raw_observations": 170,
+      "good_observations": 170,
+      "good_nights": 74,
+      "training_source": true,
+      "score": 0.0,
+      "data_quality_flags": [
+        "no_astrometric_coordinates"
+      ],
+      "physical_evidence_flags": [
+        "inadequate_pre_or_post_event_baseline"
+      ],
+      "training_lightcurve_fingerprint_match": null,
+      "status": "known_training_control_not_discovery",
+      "original_image_verified": false,
+      "independently_verified_discovery": false,
+      "novelty_catalog_checked": false,
+      "threshold": 0.5228646028279441,
+      "physical_fit": {
+        "t0_mjd": 55940.666771582524,
+        "tE_days": 392.886233941492,
+        "delta_aic": 149.6502280269831,
+        "fit_converged": true,
+        "good_observations": 170
+      },
+      "coverage": {
+        "nights_before_2tE": 0,
+        "nights_after_2tE": 17,
+        "event_nights_within_tE": 35
+      },
+      "fit_stability": {}
+    },
+    {
+      "sourceid": "12772319005857",
+      "ra_deg": null,
+      "dec_deg": null,
+      "raw_observations": 176,
+      "good_observations": 176,
+      "good_nights": 75,
+      "training_source": true,
+      "score": 0.0,
+      "data_quality_flags": [
+        "no_astrometric_coordinates"
+      ],
+      "physical_evidence_flags": [
+        "optimizer_did_not_converge",
+        "fewer_than_two_event_nights"
+      ],
+      "training_lightcurve_fingerprint_match": null,
+      "status": "known_training_control_not_discovery",
+      "original_image_verified": false,
+      "independently_verified_discovery": false,
+      "novelty_catalog_checked": false,
+      "threshold": 0.5228646028279441,
+      "physical_fit": {
+        "t0_mjd": 55836.90635549236,
+        "tE_days": 0.808325175329055,
+        "delta_aic": 96.7505005485175,
+        "fit_converged": false,
+        "good_observations": 176
+      },
+      "coverage": {
+        "nights_before_2tE": 5,
+        "nights_after_2tE": 70,
+        "event_nights_within_tE": 0
+      },
+      "fit_stability": {}
+    },
+    {
+      "sourceid": "13960156011640",
+      "ra_deg": null,
+      "dec_deg": null,
+      "raw_observations": 164,
+      "good_observations": 163,
+      "good_nights": 78,
+      "training_source": true,
+      "score": 0.0,
+      "data_quality_flags": [
+        "no_astrometric_coordinates"
+      ],
+      "physical_evidence_flags": [
+        "optimizer_did_not_converge",
+        "fewer_than_two_event_nights"
+      ],
+      "training_lightcurve_fingerprint_match": null,
+      "status": "known_training_control_not_discovery",
+      "original_image_verified": false,
+      "independently_verified_discovery": false,
+      "novelty_catalog_checked": false,
+      "threshold": 0.5228646028279441,
+      "physical_fit": {
+        "t0_mjd": 57237.99878821318,
+        "tE_days": 0.5328539466699835,
+        "delta_aic": 22.345441822737087,
+        "fit_converged": false,
+        "good_observations": 163
+      },
+      "coverage": {
+        "nights_before_2tE": 72,
+        "nights_after_2tE": 4,
+        "event_nights_within_tE": 0
+      },
+      "fit_stability": {}
+    }
+  ]
+}

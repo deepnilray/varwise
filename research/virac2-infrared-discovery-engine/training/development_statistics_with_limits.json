@@ -1,0 +1,98 @@
+{
+  "classification_population": "curated named variable stars and published microlensing candidates only",
+  "sources": 366,
+  "positive_examples": 94,
+  "comparison_examples": 272,
+  "exposure_or_sky_groups": 138,
+  "grouped_development_only": true,
+  "external_test": false,
+  "image_artifacts_in_negative_labels": false,
+  "quiet_sources_in_negative_labels": false,
+  "confirmed_new_discoveries": 0,
+  "confusion_matrix": [
+    [
+      269,
+      3
+    ],
+    [
+      4,
+      90
+    ]
+  ],
+  "recall_development": {
+    "count": 90,
+    "denominator": 94,
+    "rate": 0.9574468085106383,
+    "wilson_95_percent_interval": [
+      0.8956435421811827,
+      0.9833294518499572
+    ]
+  },
+  "comparison_false_positive_rate_development": {
+    "count": 3,
+    "denominator": 272,
+    "rate": 0.011029411764705883,
+    "wilson_95_percent_interval": [
+      0.003757951302016928,
+      0.03192000248625459
+    ]
+  },
+  "precision_at_original_development_prevalence": {
+    "count": 90,
+    "denominator": 93,
+    "rate": 0.967741935483871,
+    "wilson_95_percent_interval": [
+      0.909406174888785,
+      0.9889693871841079
+    ]
+  },
+  "average_precision_development": 0.9931398174410762,
+  "cohort_breakdown": {
+    "CV": {
+      "count": 63,
+      "positives": 0,
+      "predicted_microlensing": 2
+    },
+    "Dipping Giant": {
+      "count": 17,
+      "positives": 0,
+      "predicted_microlensing": 0
+    },
+    "Dipping YSO": {
+      "count": 8,
+      "positives": 0,
+      "predicted_microlensing": 0
+    },
+    "Eruptive YSO": {
+      "count": 31,
+      "positives": 0,
+      "predicted_microlensing": 0
+    },
+    "LPV": {
+      "count": 49,
+      "positives": 0,
+      "predicted_microlensing": 0
+    },
+    "Microlens": {
+      "count": 33,
+      "positives": 33,
+      "predicted_microlensing": 29
+    },
+    "RR": {
+      "count": 104,
+      "positives": 0,
+      "predicted_microlensing": 1
+    },
+    "microlensing": {
+      "count": 61,
+      "positives": 61,
+      "predicted_microlensing": 61
+    }
+  },
+  "cautions": [
+    "Development confidence intervals assume exchangeable objects; grouping, sample-selection and label uncertainties can widen uncertainty.",
+    "New post-hoc quality gates have NOT been evaluated on a new independent sample.",
+    "The reviewed sample is not representative of billions of catalog entries, especially artifacts.",
+    "No support for discovery-quality precision or completeness claims."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "created_utc": "2026-11-17T12:08:59.332260+00:00",
+  "input_sha256": "5f149c3dc9e9803c8287800f24b50342fe429315b6d994e2db1a5c930b7d0bf4",
+  "model_sha256": "655b77c78a56e557d884cceef88fa9c69db89b40a3b80081b5088291f2be1b3d",
+  "input_preflight": {
+    "raw_rows": 1522,
+    "sources": 8,
+    "observed_filters": [
+      "Ks"
+    ]
+  },
+  "pipeline_code_sha256": {
+    "engine.py": "739582e3c58de96617b9f506c58a3a37405b5f152199e50fd682ccf3e8b5350f",
+    "core/feature_pipeline.py": "4a99a56526df1595480d30a7301ea52850628728ef6a54d210c280814a58ed2b",
+    "core/predict.py": "6c6b25b0c74f8618507afef94455dc16cf2208ab28ceba13be86c3f7bb47742e",
+    "core/physical_features.py": "3683e98dcfa639d849b7197a68f4c115b10052dd3f3326d0ef89153c0e9a25ed",
+    "core/input_guard.py": "50ffc1adfb5b335468a154a2ba0c129fe376f198d70f37d9b877198fb41913e3",
+    "model/manifest.json": "6e6fa862cb07d8b3087b47f7bfd41135ad8466ffefe61804bcc92fe67420e2f8"
+  },
+  "software": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "sklearn": "1.8.0",
+    "pandas": "2.2.3"
+  },
+  "validation_type": "development_grouped_CV_only",
+  "discovery_validated": false,
+  "selection_rules_validated": false,
+  "output_files_sha256": {
+    "candidate_audit.json": "1da7fc7174c2105ae5d074ca93375955ed3ad873ea8d9498ac07b392a4b86732",
+    "candidate_ranking.csv": "f2d84931613ae3f17b1f549e297efadfda5c7f1fc5a9a3142ce66542a92a3b59",
+    "candidate_report.html": "1573aa676c178141cf47771db352849d483d5b080c39a09609157344ad6a277f",
+    "summary.json": "c1a9ae7b9568b1b13fe835c62da803c5974e3703c38b650f725c820c4ea50181",
+    "review_checklist.csv": "2cb44a4a681569d93104d7d741c21651a664bb0341d2d5685a89080063cc690e"
+  }
+}

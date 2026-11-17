@@ -1,0 +1,31 @@
+{
+  "model_file": "virac2_microlensing_v12_retrained.joblib",
+  "sha256": "655b77c78a56e557d884cceef88fa9c69db89b40a3b80081b5088291f2be1b3d",
+  "training_sources": 366,
+  "training_exposure_sky_groups": 138,
+  "classes": [
+    "published microlensing / candidates",
+    "other published variable classes"
+  ],
+  "nested_development_confusion_matrix": [
+    [
+      269,
+      3
+    ],
+    [
+      4,
+      90
+    ]
+  ],
+  "nested_development_average_precision": 0.9931398174410762,
+  "cutoff": 0.5228646028279441,
+  "source": "user-owned archived VIRAC2 v12 real training rows, fully retrained 17 Nov 2026",
+  "validation": "development grouped CV only; not fresh external validation",
+  "release_validated": false,
+  "discovery_confirmed": false,
+  "model_source": "ESO VIRAC2 DR3 publicly available astronomical measurements; published labels",
+  "provenance": "Original 366-source features from VIRAC2_v12_Expanded_Training.zip; re-fit using preserved v12/train.py; source/test-group checks included",
+  "training_ids_sha256": "43c3662e5a8959d2f975ce75dd86331d50683979bce83b138704e9adb32fd78b",
+  "training_rows_sha256": "27c99820a5aa41ecfb0318ea8a81f908160b4ad300bbb6bee48c2fdb26c7006c",
+  "fold_predictions_sha256": "b3ff1726871ae8e45bc98189fcc6cd67755a77e009ac5158602b9ce7ab41fdbd"
+}

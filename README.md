@@ -44,3 +44,7 @@ The normal ZTF positional endpoint can return HTTP 400 `invalid TAP query`. The 
 A VarWISE catalog source is **already known** in infrared. Unreported optical *behavior*, if identified, needs independent multi-filter/temporal checks, catalog and literature vetting, imaging/blend analysis and expert confirmation before any discovery claim.
 
 **Research status: failed validation; no verified new objects.**
+
+## Winter 2026 — VIRAC2 infrared candidate engine
+
+The independently operated, research-only infrared candidate scorer, frozen model, tests, training records and full Sol 6.1 handoff are in [`research/virac2-infrared-discovery-engine/`](research/virac2-infrared-discovery-engine/). Start with [SOL_6_1_HANDOFF.md](SOL_6_1_HANDOFF.md). **Not independently validated for astronomical discovery; no new object or event is confirmed.**

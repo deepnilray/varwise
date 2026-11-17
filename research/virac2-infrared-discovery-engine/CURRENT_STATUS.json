@@ -1,0 +1,25 @@
+{
+  "project": "VIRAC2 infrared microlensing-like candidate ranker",
+  "as_of": "2026-11-17",
+  "status": "research_only_not_validated_for_discovery",
+  "repo_subdir": "research/virac2-infrared-discovery-engine",
+  "model_sha256": "655b77c78a56e557d884cceef88fa9c69db89b40a3b80081b5088291f2be1b3d",
+  "training_labeled_sources": 366,
+  "development_groups": 138,
+  "development_confusion_matrix": {
+    "tn": 269,
+    "fp": 3,
+    "fn": 4,
+    "tp": 90
+  },
+  "development_average_precision": 0.9931398174410762,
+  "adversarial_tests_passed": 27,
+  "archival_checks_passed": 10,
+  "fresh_sky_holdout_passed": false,
+  "image_confirmed_artifact_benchmark": false,
+  "automated_blind_survey": false,
+  "live_eso_fetch_verified": false,
+  "scientific_novelty_checked": false,
+  "confirmed_discoveries": 0,
+  "next_priority": "P0 historical sky tile inventory, independently image-vetted artifact cohort and newly sealed source/sky-disjoint benchmark"
+}

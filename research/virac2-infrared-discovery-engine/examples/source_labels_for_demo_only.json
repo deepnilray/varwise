@@ -1,0 +1,42 @@
+[
+  {
+    "sourceid": "13726720002998",
+    "class": "microlensing",
+    "label": 1
+  },
+  {
+    "sourceid": "12960819005339",
+    "class": "microlensing",
+    "label": 1
+  },
+  {
+    "sourceid": "12669933004283",
+    "class": "microlensing",
+    "label": 1
+  },
+  {
+    "sourceid": "13313054002622",
+    "class": "microlensing",
+    "label": 1
+  },
+  {
+    "sourceid": "13960156011640",
+    "class": "RR",
+    "label": 0
+  },
+  {
+    "sourceid": "12772319005857",
+    "class": "RR",
+    "label": 0
+  },
+  {
+    "sourceid": "12764128009522",
+    "class": "RR",
+    "label": 0
+  },
+  {
+    "sourceid": "13956065010603",
+    "class": "RR",
+    "label": 0
+  }
+]
