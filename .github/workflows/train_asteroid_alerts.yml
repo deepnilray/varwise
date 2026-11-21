@@ -1,0 +1,36 @@
+name: Train ZTF asteroid alert baseline (real images)
+on:
+  push:
+    branches:
+      - research/asteroid-training-2026
+    paths:
+      - research/asteroid-hunter/**
+      - .github/workflows/train_asteroid_alerts.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  train:
+    runs-on: ubuntu-latest
+    timeout-minutes: 65
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install CPU training dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install torch==2.6.0 --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install numpy==1.26.4 scipy==1.15.3 scikit-learn==1.6.1 pillow==11.2.1 huggingface_hub==0.30.2
+      - name: Train on real ZTF / ALeRCE image montages
+        run: python research/asteroid-hunter/train_ztf_alerts.py
+      - name: Upload weights and evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ztf-alert-real-data-baseline
+          path: asteroid_train_results/
+          if-no-files-found: warn
