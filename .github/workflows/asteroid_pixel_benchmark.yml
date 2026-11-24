@@ -1,0 +1,166 @@
+name: Asteroid pixel benchmark
+on:
+  push:
+    branches: [research/asteroid-pixel-benchmark-20261125]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install numpy scipy astropy reproject astroquery requests scikit-image
+      - name: Run public real-exposure benchmark (aggregate only)
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p evidence
+          cat > benchmark.py <<'PY'
+          import hashlib, json, requests, numpy as np
+          from pathlib import Path
+          from astropy.io import fits
+          from astropy.time import Time
+          from astropy.wcs import WCS
+          from astropy.coordinates import SkyCoord
+          import astropy.units as u
+          from scipy.ndimage import gaussian_filter, maximum_filter, map_coordinates
+          from scipy.spatial import cKDTree
+          from reproject import reproject_interp
+          from astroquery.imcce import Skybot
+          from skimage.registration import phase_cross_correlation
+          from scipy.ndimage import shift
+          base='https://raw.githubusercontent.com/heyJatin/Astro.py/main/demo_fits/'
+          files=['o9172g0429o.1705958.ch.2383647.XY04.p11.fits','o9172g0448o.1705977.ch.2383666.XY04.p11.fits','o9172g0467o.1705996.ch.2383685.XY04.p11.fits','o9172g0486o.1706015.ch.2383704.XY04.p11.fits']
+          report={'scope':'public demonstration exposures, not discovery data','input_files':[],'catalogue':'NOT_CHECKED','discovery_claims':0}
+          def save():
+              Path('evidence/benchmark.json').write_text(json.dumps(report,indent=2))
+          def mad(x):
+              return float(1.4826*np.nanmedian(np.abs(x-np.nanmedian(x))))
+          def read(p):
+              with fits.open(p) as h:
+                  im=next(k for k in h if k.data is not None and k.data.ndim==2)
+                  hdr=h[0].header.copy(); hdr.update(im.header)
+                  if 'MJD-OBS' in hdr: t=float(hdr['MJD-OBS'])
+                  else: t=Time(hdr['DATE-OBS']).mjd
+                  t+=float(hdr.get('EXPTIME',0))/172800
+                  w=WCS(hdr).celestial
+                  if not w.has_celestial: raise RuntimeError('missing celestial WCS')
+                  return np.asarray(im.data,dtype=np.float32),w,t
+          try:
+              raw=[]
+              for name in files:
+                  r=requests.get(base+name,timeout=90);r.raise_for_status()
+                  Path(name).write_bytes(r.content)
+                  report['input_files'].append({'file':name,'sha256':hashlib.sha256(r.content).hexdigest(),'bytes':len(r.content)})
+                  raw.append(read(name))
+              raw.sort(key=lambda x:x[2]); t=np.array([r[2] for r in raw]); dt=(t-t[0])*24
+              if not np.all(np.diff(dt)>0):raise RuntimeError('non-increasing epochs')
+              w=raw[0][1]; shape=raw[0][0].shape
+              arr=[]
+              for data,wi,_ in raw:
+                  data=np.where(np.isfinite(data)&(data!=0),data,np.nan)
+                  img,foot=reproject_interp((data,wi),w,shape_out=shape)
+                  img=np.asarray(img,np.float32)
+                  img[foot<.99]=np.nan
+                  arr.append(img)
+              # Fine translation alignment is diagnostic; reject large residual shifts.
+              ref=arr[0]
+              offsets=[]
+              for j in range(1,4):
+                  a=np.nan_to_num(ref-np.nanmedian(ref)); b=np.nan_to_num(arr[j]-np.nanmedian(arr[j]))
+                  dyx,_,_=phase_cross_correlation(a,b,upsample_factor=10)
+                  if np.linalg.norm(dyx)>5:raise RuntimeError('WCS alignment failed')
+                  arr[j]=shift(arr[j],dyx,order=1,cval=np.nan,prefilter=False)
+                  offsets.append(dyx.tolist())
+              cube=np.stack(arr); common=np.all(np.isfinite(cube),axis=0)
+              if common.mean()<.4:raise RuntimeError('insufficient overlap')
+              # Fit empirical background scale on alternating 64px blocks only.
+              yy,xx=np.indices(shape); train=((xx//64+yy//64)%2==0)&common
+              hold=(~train)&common
+              for j in range(4):
+                  med=np.nanmedian(cube[j][train]); sig=mad(cube[j][train])
+                  if not np.isfinite(sig) or sig<=0:raise RuntimeError('invalid background')
+                  cube[j]=(cube[j]-med)/sig
+              with np.errstate(invalid='ignore'):
+                  ref=np.nanmedian(cube,axis=0)
+              residual=cube-ref
+              smooth=gaussian_filter(np.nan_to_num(residual),sigma=(0,1.3,1.3))
+              valid=gaussian_filter(common.astype(float),1.3)>.995
+              for j in range(4):
+                  sig=mad(smooth[j][train&valid])
+                  if sig<=0:raise RuntimeError('invalid matched-filter noise')
+                  smooth[j]/=sig
+              report.update(images=4,shape=list(shape),baseline_hours=float(dt[-1]),common_fraction=float(common.mean()),registration_offsets_pixels=offsets,heldout_noise_mad=[mad(v[hold&valid]) for v in smooth])
+              # Fixed threshold, not tuned after seeing any truth. 4-epoch tracklet fit.
+              def link(pol):
+                  pos=[]; sn=[]
+                  for img in smooth*pol:
+                      peak=valid&(img>=3.5)&(img==maximum_filter(img,size=5))
+                      y,x=np.where(peak); pos.append(np.column_stack((x,y)));sn.append(img[y,x])
+                  if any(len(p)>60000 for p in pos):raise RuntimeError('source overflow')
+                  trees=[cKDTree(p) for p in pos]; hits={}
+                  lo,hi=5*dt[-1],300*dt[-1]
+                  for i,p in enumerate(pos[0]):
+                      js=trees[3].query_ball_point(p,hi)
+                      for k in js:
+                          end=pos[3][k];d=end-p
+                          if np.linalg.norm(d)<lo:continue
+                          ids=[i]
+                          for j in (1,2):
+                              dist,ind=trees[j].query(p+d*dt[j]/dt[-1],distance_upper_bound=2.0)
+                              if not np.isfinite(dist):break
+                              ids.append(int(ind))
+                          if len(ids)!=3:continue
+                          ids.append(k); q=np.array([pos[j][z] for j,z in enumerate(ids)])
+                          A=np.column_stack([np.ones(4),dt]); co=np.linalg.lstsq(A,q,rcond=None)[0]
+                          rms=float(np.sqrt(np.mean(np.sum((q-A@co)**2,axis=1))))
+                          if rms>1.0:continue
+                          s=np.array([sn[j][z] for j,z in enumerate(ids)])
+                          if s.sum()/2<8:continue
+                          hits[tuple(ids)]=(q,float(s.sum()/2))
+                  return list(hits.values()),[len(p) for p in pos]
+              plus,counts=link(1);minus,_=link(-1)
+              report.update(blind_positive_tracklets=len(plus),inverted_tracklets=len(minus),source_counts=counts)
+              # Known-object verification independent of candidate detection.
+              known=[]
+              try:
+                  c=w.pixel_to_world(shape[1]/2,shape[0]/2)
+                  rad=max(c.separation(w.pixel_to_world(x,y)).deg for x,y in [(0,0),(shape[1]-1,0),(0,shape[0]-1),(shape[1]-1,shape[0]-1)])
+                  cat=[]
+                  for ti in t:
+                      tab=Skybot.cone_search(c,rad*u.deg,Time(ti,format='mjd'),location='F51')
+                      rows={}
+                      for row in tab:
+                          name=str(row['Name']); coord=SkyCoord(float(row['RA'])*u.deg,float(row['DEC'])*u.deg)
+                          x,y=w.world_to_pixel(coord)
+                          rows[name]=[float(x),float(y)]
+                      cat.append(rows)
+                  for name in set.intersection(*(set(x) for x in cat)):
+                      q=np.array([x[name] for x in cat]); ix=np.rint(q[:,0]).astype(int);iy=np.rint(q[:,1]).astype(int)
+                      if np.any(ix<10)|np.any(iy<10)|np.any(ix>=shape[1]-10)|np.any(iy>=shape[0]-10):continue
+                      if not np.all(valid[iy,ix]):continue
+                      known.append(q)
+                  recovered=sum(any(np.max(np.linalg.norm(q-p,axis=1))<=6 for p,_ in plus) for q in known)
+                  matched=sum(any(np.max(np.linalg.norm(q-p,axis=1))<=6 for q in known) for p,_ in plus)
+                  report.update(catalogue='SKYBOT_QUERIED_ALL_EPOCHS',known_on_valid_area=len(known),known_recovered=recovered,matched_tracklets=matched,unmatched_tracklets=len(plus)-matched)
+              except Exception as e:
+                  report.update(catalogue='FAILED',catalogue_error=type(e).__name__)
+              report['status']='COMPLETED_PUBLIC_BENCHMARK'
+          except Exception as e:
+              report['status']='BLOCKED';report['error_type']=type(e).__name__;report['error_message']=str(e)[:300]
+              save(); raise
+          finally:
+              save()
+          print(json.dumps({k:v for k,v in report.items() if k!='input_files'}))
+          PY
+          python benchmark.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: asteroid-public-pixel-benchmark
+          path: evidence/
